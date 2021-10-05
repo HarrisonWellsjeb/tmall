@@ -364,3 +364,14 @@ i,
 em {
 	font-style: normal;
 }
+
+ul,
+ol,
+dl,
+li,
+dt,
+dd,
+p {
+	margin: 0;
+	padding: 0;
+}

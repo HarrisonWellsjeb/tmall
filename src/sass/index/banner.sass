@@ -1,0 +1,60 @@
+@import "../_mixin.sass"
+@import "../_var.sass"
+
+.banner
+    @include wrapper
+
+.banner__nav
+    .nav
+        display: flex
+        align-items: center
+        &__item
+            padding: 0 8px
+            height: 35px
+            >a
+                font-size: 16px
+                line-height: 35px
+                color: #333
+                vertical-align: top
+                >img
+                    display: block
+                    width: 100px
+                    height: 30px
+                    margin-top: 3px
+            &:hover>a
+                color: $cmain
+        &__item:first-of-type
+            position: relative
+            width: 200px
+            padding: 0
+            background-color: $cmain
+            color: #fff
+        &__title
+            height: 36px
+            font-size: 16px
+            margin-left: 8px
+            font-weight: 700
+            text-align: left
+            line-height: 35px
+
+        &__subnav
+            position: absolute
+            top: 35px
+            left: 0
+            width: 200px
+            height: 500px
+            background-color: rgba(0,0,0,.55)
+            z-index: 999
+            .subnav__item
+                height: 31.2px
+                font-size: 14px
+                line-height: 31.2px
+                &:hover
+                    background-color: #fff
+            .subnav__title
+                >span>a
+                    color: #fff
+                
+
+
+            

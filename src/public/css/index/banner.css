@@ -1,0 +1,54 @@
+.banner {
+  width: 1230px;
+  padding-right: 30px;
+  margin: 0 auto; }
+
+.banner__nav .nav {
+  display: flex;
+  align-items: center; }
+  .banner__nav .nav__item {
+    padding: 0 8px;
+    height: 35px; }
+    .banner__nav .nav__item > a {
+      font-size: 16px;
+      line-height: 35px;
+      color: #333;
+      vertical-align: top; }
+      .banner__nav .nav__item > a > img {
+        display: block;
+        width: 100px;
+        height: 30px;
+        margin-top: 3px; }
+    .banner__nav .nav__item:hover > a {
+      color: #ff0036; }
+  .banner__nav .nav__item:first-of-type {
+    position: relative;
+    width: 200px;
+    padding: 0;
+    background-color: #ff0036;
+    color: #fff; }
+  .banner__nav .nav__title {
+    height: 36px;
+    font-size: 16px;
+    margin-left: 8px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 35px; }
+  .banner__nav .nav__subnav {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 200px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: 999; }
+    .banner__nav .nav__subnav .subnav__item {
+      height: 31.2px;
+      font-size: 14px;
+      line-height: 31.2px; }
+      .banner__nav .nav__subnav .subnav__item:hover {
+        background-color: #fff; }
+    .banner__nav .nav__subnav .subnav__title > span > a {
+      color: #fff; }
+
+/*# sourceMappingURL=banner.css.map */

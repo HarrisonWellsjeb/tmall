@@ -21,6 +21,7 @@
 				/>
 			</a>
 		</section>
+
 		<!-- 头部 -->
 		<header>
 			<!-- 头部顶端导航 -->
@@ -47,11 +48,11 @@
 					<!-- 站点导航 -->
 					<ul class="site-nav__menu">
 						<!-- 我的淘宝 -->
-						<li class="menu__main">
+						<li class="menu__main menu__sliderdown">
 							<a href="javascript:;">
 								<span>我的淘宝</span>
 							</a>
-							<div class="menu__sub">
+							<div class="menu__sub sub__baby">
 								<a href="javascript:;">已买到的宝贝</a>
 								<a href="javascript:;">已卖出的宝贝</a>
 							</div>
@@ -62,7 +63,7 @@
 							<a href="javascript:;">购物车</a>
 						</li>
 						<!-- 收藏夹 -->
-						<li class="menu__fav">
+						<li class="menu__fav menu__sliderdown">
 							<a href="javascript:;">收藏夹</a>
 							<div class="menu__sub">
 								<a href="javascript:;">收藏的宝贝</a>
@@ -80,37 +81,21 @@
 							<a href="javascript:;">淘宝网</a>
 						</li>
 						<!-- 商家支持 -->
-						<li class="menu__seller">
+						<li class="menu__seller menu__sliderdown">
 							<a href="javascript:;">商家支持</a>
 							<!-- 商家支持 二级导航 -->
-							<ul class="seller-list">
+							<ul class="seller-list menu__sub">
 								<!-- 商家支持具体项目 -->
 								<li class="seller__item seller__menu">
 									<p class="seller__title">商家:</p>
-									<a class="seller__item" href="javascript:;">
-										商家入驻
-									</a>
-									<a class="seller__item" href="javascript:;">
-										商家中心
-									</a>
-									<a class="seller__item" href="javascript:;">
-										商家品控
-									</a>
-									<a class="seller__item" href="javascript:;">
-										天猫智库
-									</a>
-									<a class="seller__item" href="javascript:;">
-										天猫规制
-									</a>
-									<a class="seller__item" href="javascript:;">
-										运营服务
-									</a>
-									<a class="seller__item" href="javascript:;">
-										商家服务
-									</a>
-									<a class="seller__item" href="javascript:;">
-										喵言喵语
-									</a>
+									<a href="javascript:;"> 商家入驻 </a>
+									<a href="javascript:;"> 商家中心 </a>
+									<a href="javascript:;"> 商家品控 </a>
+									<a href="javascript:;"> 天猫智库 </a>
+									<a href="javascript:;"> 天猫规制 </a>
+									<a href="javascript:;"> 运营服务 </a>
+									<a href="javascript:;"> 商家服务 </a>
+									<a href="javascript:;"> 喵言喵语 </a>
 								</li>
 								<!-- 帮助 -->
 								<li class="seller__item seller__help">
@@ -121,15 +106,15 @@
 							</ul>
 						</li>
 						<!-- 站点导航 -->
-						<li class="menu__sitenav">
+						<li class="menu__sitenav menu__sliderdown">
 							<div class="sitnav__info">
 								<i class="icon"></i>
 								<span>网站导航</span>
 							</div>
 							<!-- 网站导航 二级菜单 -->
-							<div class="sitenav__sub">
+							<div class="sitenav__sub menu__sub">
 								<!-- 热点推荐 -->
-								<dl class="sitenav__hot">
+								<dl class="sitenav__hot sitenav__item">
 									<dt>热点推荐<span>Hot</span></dt>
 									<dd>
 										<a href="javascript:;">天猫超市</a>
@@ -146,9 +131,6 @@
 									</dd>
 									<dd>
 										<a href="javascript:;">试美妆</a>
-									</dd>
-									<dd>
-										<a href="javascript:;">天猫超市</a>
 									</dd>
 									<dd>
 										<a href="javascript:;">企业采购</a>
@@ -182,7 +164,7 @@
 									</dd>
 								</dl>
 								<!-- 行业市场 -->
-								<dl class="sitenav__market">
+								<dl class="sitenav__market sitenav__item">
 									<dt>行业市场<span>Market</span></dt>
 									<dd>
 										<a href="javascript:;">美妆</a>
@@ -231,7 +213,7 @@
 									</dd>
 								</dl>
 								<!-- 帮助中心 -->
-								<dl class="sitenav__help">
+								<dl class="sitenav__help sitenav__item">
 									<dt>服务指南<span>Help</span></dt>
 									<dd>
 										<a href="javascript:;">帮助中心</a>
@@ -251,6 +233,115 @@
 					</ul>
 				</div>
 			</nav>
+
+			<!-- search -->
+			<section class="searchbar">
+				<h1 class="logo">
+					<img
+						src="../images/index/log.png"
+						width="480"
+						height="260"
+						alt="logo"
+					/>
+				</h1>
+				<div class="search">
+					<form action="#">
+						<input
+							class="search__input"
+							type="text"
+							placeholder="搜索 天猫 品牌/商品/店铺"
+						/>
+						<div class="search__submit">搜索</div>
+					</form>
+				</div>
+			</section>
 		</header>
+
+		<!-- banner -->
+		<section class="banner">
+			<!-- banner nav -->
+			<section class="banner__nav">
+				<!-- banner 一级导航 -->
+				<ul class="nav">
+					<li class="nav__item">
+						<!-- 一级导航 标题 -->
+						<div class="nav__title">
+							<i class="icon"></i>
+							<span>商品分类</span>
+						</div>
+						<!-- 二级导航 只有第一项有 -->
+						<ul class="nav__subnav">
+							<li class="subnav__item">
+								<!-- 二级导航的 标题 -->
+								<div class="subnav__title">
+									<i class="icon"></i>
+									<span>
+										<a href="javascript:;">女装</a>
+										/<a href="javascript:;">内衣</a>
+									</span>
+								</div>
+								<!-- 三级导航 -->
+								<div class="subnav__container">
+									<!-- 三级导航 的主体部分 -->
+									<div class="container__main">
+										<!-- 三级导航主体部分的 条目 -->
+										<div class="main__item">
+											<!-- 条目的 标题 -->
+											<div class="main__title"></div>
+											<!-- 条目的 内容 -->
+											<div class="main__content">
+												<span><a href="javascript:;"> </a></span>
+											</div>
+										</div>
+									</div>
+									<!--三级导航侧边栏 图片展示 -->
+									<div class="container__graph"></div>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li class="nav__item">
+						<a href="javascript:;">
+							<img src="../images/index/banner__nav__1.png" width:="220"
+							height="60" alt="!" />
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="javascript:;">
+							<img
+								src="../images/index/banner__nav__1.png"
+								width="220"
+								height="60"
+								alt="!"
+							/>
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="javascript:;"> 天猫会员 </a>
+					</li>
+					<li class="nav__item">
+						<a href="javascript:;"> 喵鲜生 </a>
+					</li class="nav__item">
+					<li class="nav__item">
+						<a href="javascript:;"> 医药馆 </a>
+					</li >
+					<li class="nav__item">
+						<a href="javascript:;"> 魅力惠 </a>
+					</li>
+					<li class="nav__item">
+						<a href="javascript:;"> 飞猪旅行 </a>
+					</li>
+					<li class="nav__item">
+						<a href="javascript:;"> 苏宁易购 </a>
+					</li>
+					<li class="nav__item"> 
+						<a href="javascript:;"> 天猫内容 </a>
+					</li>
+				</ul>
+			</section>
+
+			<!-- banner bar -->
+			<section class="banner__bar"></section>
+		</section>
 	</body>
 </html>

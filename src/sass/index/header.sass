@@ -7,18 +7,17 @@
 
 .site-nav
     background-color: rgb(242, 242, 242)
-    padding-bottom: 1px
     @include site-nav-font
     .wrapper
         display: flex
         width: $wrap-width
+        height: 32px
         margin: 0 auto 
         justify-content: space-between
         .login
             display: flex
             justify-content: space-between
             width: 218px
-            @include clear-pm
             a 
                 @include site-nav-font
                 &:last-of-type
@@ -26,6 +25,180 @@
 
         .site-nav__menu
             display: flex
-            justify-content: space-between
+            position: relative
+            width: 506px
+            justify-content: space-between    
+            .menu__sliderdown
+                padding-right: 14px
+                &::after
+                    position: absolute
+                    content: ""
+                    right: 6px
+                    top: 15px
+                    width: 0
+                    height: 0
+                    border-width: 3px
+                    border-style: solid dashed dashed
+                    border-color: #a88f8f transparent transparent
+                    font-size: 0
+                    line-height: 0
+            >li
+                position: relative
+                padding: 0 10px
+                >a
+                    height: 32px   
+                    @include  site-nav-font           
+            .menu__sub
+                position: absolute
+                left: 0
+                top: -100px
+                width: 74px
+                padding: 8px 10px
+                border: solid #eee
+                border-width: 0 1px 1px
+                font: 12px/22px "Microsoft YaHei" 
+                text-align: center
+                background-color: $bcfff
+                z-index: 9999
+                overflow: hidden
+                max-height: 0
+                opacity: 0
+                a 
+                    font: 12px/22px "Microsoft YaHei" 
+                    color: $c666
+            .menu__fav
+                .menu__sub
+                    width: 64px
+            .seller-list
+                left: auto
+                right: 0
+                width: 122px
+                overflow: hidden
+                .seller__item
+                    padding: 5px 0
+                    height: auto
+                    display: block
+                    line-height: 1.4
+                    border-bottom: 1px dotted #827777
+                .seller__menu
+                    text-align: left
+                    column-count: 2
+                    .seller__title
+                        color: $c666
+                        font-weight: 700
+                        column-span: all
+                    >a
+                        display: block
+                .seller__help
+                    text-align: left
+                    .seller__title
+                        color: $c666
+                        font-weight: 700
+            .menu__sitenav
+                .sitenav__sub
+                    display: flex
+                    justify-content: space-between
+                    left: auto
+                    right: 0
+                    width: 1198px
+                    padding: 25px 0
+                    text-align: left
 
+                    dl:nth-of-type(2)
+                        border-right: 1px solid #f5f5f5
+                        border-left: 1px solid #f5f5f5
+                    
+                    dl:not(:last-of-type)
+                        width: 455px
+                    
+                    dl:nth-of-type
+                        width: 196px
+                        overflow: hidden
+
+                    .sitenav__item
+                        height: 110px
+                        padding-left: 30px
+                        column-count: 5 
+                        >dt
+                            padding-bottom: 8px
+                            font-size: 16px
+                            font-weight: 100
+                            column-span: all
+                            >span
+                                padding-left: 6px
+                        >dd
+                            width: 90px
+                            padding: 2px 0
+                            >a
+                                line-height: 1.4em
+                                color: $c666
+                    .sitenav__hot
+                        color: #f56a00
+                    
+                    .sitenav__market
+                        color: #2263d4
+
+                    .sitenav__help
+                        column-count: 2
+                        color: $c666
+            >li:hover 
+                background-color: $bcfff
+                border: solid #eee
+                border-width: 1px 1px 0
+            >li:hover .menu__sub
+                top: 33px
+                max-height: 500px
+                opacity: 1
+
+// search
+.searchbar
+    display: flex
+    justify-content: start
+    align-items: flex-start
+    height: 130px
+    @include  wrapper
+    .logo
+        margin: 0
+        padding: 0
+        img
+            width: 240px
+            height: 130px
+            margin: 1px 25px
+            margin-left: -20px
     
+    .search
+        width: 625px
+        heigth: 40px
+        margin-left: 75px
+        padding-top: 38px
+        form
+            display: flex
+            justify-content: space-between
+            width: 621px
+            height: 36
+            border: 2px solid #ff0036
+            // border-width: 2px 0 2px 2px
+            // border-style: solid
+            // border-color: #ff0036
+        &__input
+            flex: auto
+            outline: none
+            border: none
+            &:-webkit-input-placeholder
+                font-size: 14px
+                line-height: 36px
+                height: 36px
+            &:focus:-webkit-input-placeholder
+                outline: none
+                color: #ccc
+        &__submit
+            width: 132px
+            height: 36px
+            font-size: 18px
+            font-weight: 700
+            letter-spacing: 5px
+            background-color: #ff0036
+            text-align: center
+            line-height: 36px
+            color: #fff
+
