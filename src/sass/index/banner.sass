@@ -51,10 +51,62 @@
                 line-height: 31.2px
                 &:hover
                     background-color: #fff
+                &:hover .subnav__container
+                    top: 0
+                    max-height: 500px
+                    opacity: 1
             .subnav__title
                 >span>a
                     color: #fff
-                
+            .subnav__container 
+                display: flex
+                box-sizing: border-box
+                position: absolute
+                top: -10000px
+                left: 200px
+                width: 852px
+                height: 500px
+                background-color: #fafafa
+                max-height: 0
+                z-index: 999
+                overflow: hidden
+                opacity: 0
+                .container__main
+                    width: 642px
+                    height: 500px
+                    background-color: #fff
+                    .main__item
+                        display: flex
+                        justify-content: flex-start
+                        flex: 1 0 auto
+                        font-size: 14px
+                        line-height: 20px
+                        .main__title
+                            box-sizing: border-box
+                            width: 120px
+                            padding: 14px 0
+                            color: #333
+                            text-align: center
+                            font-weight: 700
+                            p
+                                letter-space: 4em
+                                width: 72px
+                                margin: 0 auto
+                                text-align: justify
+                                i
+                                    padding-left: 2px
+                        .main__content
+                            // box-sizing: border-box
+                            width: 492px
+                            // height: 65px
+                            padding: 14px 0 14px 10px
+                            border-bottom: 1px dotted #e5e5e5
+                            text-align: left
+                            span 
+                                float: left
+                                padding-right: 12px
+                            a
+                                color: #666
 
 
             
