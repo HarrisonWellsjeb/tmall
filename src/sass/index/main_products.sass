@@ -1,0 +1,222 @@
+@import "../_var.sass"
+@import "../_mixin.sass"
+
+.products
+    @include wrapper
+.product
+    height: 665px
+    margin-top: 20px
+    &__title
+        padding: 0
+        margin: 0
+        vertical-align: middle
+        font-size: 18px
+        color: #000
+        height: 28px
+        >img
+            vertical-align: middle
+            width: 214px
+            height: 25px
+    &__content
+        display: flex
+        justify-content: space-between
+        height: 618px
+        margin-top: 10px
+        // overflow: hidden
+    &__sidebar
+        position: relative
+        width: 235px
+        height: 618px
+        >a
+            display: block
+            width: 235px
+            height: 618px
+            >img
+                display: block
+                width: 235px
+                height: 618px
+                vertical-align: middle
+        &::before
+            content: ""
+            position: absolute
+            left: 0
+            top: 0
+            width: 235px
+            height: 618px
+            background-color: rgba(255, 255, 255, .3)
+            display: none
+        &:hover::before
+            display: block
+    &__detail--desc
+        position: absolute
+        display: flex
+        justify-content: flex-start
+        vertical-align: middle
+        bottom: 20%
+        width: 218px
+        height: 64px
+        z-index: 999
+        .detail__title
+            display: flex
+            background: rgba(0,0,0,.9)
+            width: 70px
+            height: 64px
+            // overflow: hidden
+            color: #FFF
+            text-align: center
+            vertical-align: middle
+            >span
+                margin: auto
+                vertical-align: middle
+                line-height: 24px
+                font-size: 18px
+                width: 36px
+                height: 48px
+                overflow: hidden
+        .detail__content
+            box-sizing: border-box
+            background: rgba(0,0,0,.6)
+            overflow: hidden
+            width: 128px
+            height: 64pxpx
+            color: #FFF
+            vertical-align: middle
+            padding-top: 8px
+            padding-left: 14px
+            >span
+                display: block
+                line-height: 24px
+                font-size: 18px
+    &__detail--target
+        background-image: linear-gradient(-180deg,rgba(0,0,0,0) 4%,rgba(0,0,0,.36) 100%)
+        width: 100%
+        height: 60px
+        position: absolute
+        bottom: 0
+        left: 0
+        >img
+            position: absolute
+            bottom: 15px
+            right: 15px
+            width: 32px
+            height: 32px
+    
+    &__list
+        display: flex
+        justify-content: space-between
+        align-content: space-between
+        flex-wrap: wrap
+        width: 995px
+        height: 618px
+        padding-left: 13px
+        overflow: hidden
+        &--main
+            box-sizing: border-box
+            background-color: #fff
+            padding: 10px
+            height: 301px
+            .main-wrap
+                position: relative
+                width: 464px
+                height: 281px
+                box-shadow: 0 2px 8px 0 rgba(0,0,0, 9%)
+                
+                .list__main--title
+                    overflow: hidden
+                    background: #F1F1F1
+                    >p
+                        color: #FFF
+                        background: #00B262
+                    .main__title--green
+                        float: left
+                        height: 57px
+                        width: 191px
+                        cursor: pointer
+                        line-height: 57px
+                        padding: 0 16px
+                        text-align: center
+                        vertical-align: middle
+                        font-size: 18px
+                        font-weight: 400px
+                .list__main--content
+                    height: 225px
+                    width: 462px
+                    >a
+                        display: block
+                        width: 100%
+                        height: 100%
+                    .main__content--desc
+                        position: absolute
+                        top: 153px
+                        height: 87px
+                        width: 291px
+                        box-sizing: border-box
+                        background-repeat: no-repeat
+                        background-position: 0 center
+                        background-color: rgba(0,0,0,0)
+                        background-image: url("../../../public/images/index/pro__content_1_icon1.png")
+                        z-index: 99
+                        p:first-of-type             
+                            box-sizing: border-box
+                            padding-left: 26px
+                            padding-top: 8px
+                            vertical-align: middle!important
+                            >img
+                                vertical-align: middle
+                            >span
+                                box-sizing: border-box
+                                padding-left: 8px
+                                font-size: 24px
+                                font-weight: 700
+                                letter-spacing: 1px
+                                color: #00b262
+                                vertical-align: middle
+                        p:last-of-type
+                            box-sizing: border-box
+                            padding-left: 26px
+                            padding-top: 8px
+                            font-size: 20px
+                            letter-spacing: 1px
+                            color: #000
+
+    &__item
+        position: relative
+        background-color: #fff
+        width: 235px
+        height: 301px
+        text-align: center
+        box-sizing: border-box
+        >a
+            display: block
+            box-sizing: border-box
+            width: 100%
+            height: 100%
+            padding-top: 20px
+            border: 1px solid #fff
+            >img
+                width: 185px
+                height: 185px
+        .desc
+            width: 135px
+            height: 50px
+            box-sizing: border-box
+            font-size: 14px
+            color: #333
+            line-height: 20px
+            overflow: hidden
+            margin: 0 auto
+            padding: 8px 0
+            margin-bottom: 6px
+            font-weight: 400
+            >span
+                white-space: nowrap
+        .price  
+            font-size: 18px
+            color: $cmain
+            box-sizing: border-box
+            line-height: 18px
+            margin: 0 auto
+            padding-top: 2px
+            
+    
+                            
