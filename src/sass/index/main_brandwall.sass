@@ -1,0 +1,54 @@
+@import "../_var.sass"
+@import "../_mixin.sass"
+
+.brandwall
+    @include wrapper
+    padding-top: 15px
+    background-color: #fff
+    &__list 
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+    &__item
+        position: relative
+        width: 122px
+        height: 108px
+    &__img
+        width: 122px
+        height: 108px
+    &__mask
+        position: absolute
+        background-color: rgba(0,0,0,.8)
+        top: 0
+        left: 0
+        width: 122px
+        height: 108px
+        display: none
+        color: #fff
+        font-size: 12px
+        font-weight: 400
+        text-align: center
+        line-height: 18px
+    &__item:hover &__mask
+        display: block
+    
+    &__desc
+        box-sizing: border-box
+        height: 60px
+        padding: 32px 5px 0 5px
+        overflow: hidden
+        text-overflow: ellipsis
+        white-space: nowrap
+    &__enter
+        height: 32px
+        width: 63px 
+        height: 18px
+        margin: 0 auto
+        font-size: 12px
+        line-height: 15px
+        background-color: #FF0036
+        border-radius: 9px
+
+
+
+    
