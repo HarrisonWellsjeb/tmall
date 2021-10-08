@@ -1,9 +1,10 @@
 @import "../_var.sass"
 @import "../_mixin.sass"
 
+.main__brandwall
+    @include wrapper 
+
 .brandwall
-    @include wrapper
-    padding-top: 15px
     background-color: #fff
     &__list 
         display: flex
@@ -14,8 +15,13 @@
         width: 122px
         height: 108px
     &__img
+        text-align: center
         width: 122px
         height: 108px
+        line-height: 108px
+        >img
+            width: 82%
+            height: 50px
     &__mask
         position: absolute
         background-color: rgba(0,0,0,.8)

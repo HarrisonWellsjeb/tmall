@@ -1,0 +1,56 @@
+header .wrapper {
+  width: 1190px;
+  height: 44px;
+  padding: 22px 0px;
+  margin: 0 auto;
+}
+header .wrapper .logo {
+  padding: 0;
+  margin: 0;
+}
+header .wrapper .logo > a {
+  font-size: 12px;
+  line-height: 1.5;
+}
+header .wrapper .logo > a > img {
+  margin-top: 8px;
+  width: 190px;
+  vertical-align: top;
+}
+
+main {
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px;
+}
+main .banner {
+  width: 100%;
+  background-color: #dd2726;
+}
+main .banner__wrap {
+  position: relative;
+  width: 1190px;
+  margin: 0 auto;
+}
+main .banner__wrap > a {
+  display: block;
+  position: absolute;
+  top: 80px;
+  left: 75px;
+  width: 630px;
+  height: 440px;
+  border: none;
+  outline: none;
+}
+main .banner__logo > img {
+  display: block;
+  margin: 0 auto;
+}
+main .login {
+  position: absolute;
+  top: 91px;
+  right: 425px;
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=login.css.map */

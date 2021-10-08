@@ -1,8 +1,10 @@
-.brandwall {
+.main__brandwall {
   width: 1230px;
   padding-right: 30px;
   margin: 0 auto;
-  padding-top: 15px;
+}
+
+.brandwall {
   background-color: #fff;
 }
 .brandwall__list {
@@ -16,8 +18,14 @@
   height: 108px;
 }
 .brandwall__img {
+  text-align: center;
   width: 122px;
   height: 108px;
+  line-height: 108px;
+}
+.brandwall__img > img {
+  width: 82%;
+  height: 50px;
 }
 .brandwall__mask {
   position: absolute;

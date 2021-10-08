@@ -86,11 +86,19 @@ footer
             margin-right: 3px
             font-size: 12px
             color: #fff
+        &--reverse
+            color: #000
+            >a
+                color: #000
     .tm__friendlink
         @extend .tm__info
         color: #fff
         line-height: 25px
         font-size: 12px
+        &--reverse
+            color: #000
+            >a
+                color: #000
     .footer__copyright
         width: $footer-width
         margin: 0 auto
@@ -107,6 +115,9 @@ footer
             display: block
             color: #686868
             font-weight: 400
+        &--reverse
+            >a
+                color: rgb(102,102,102)
 
     .footer__bottom
         width: $footer-width
@@ -121,3 +132,7 @@ footer
         >a:last-of-type
             >img
                 width: 80px
+    &--reverse
+        background-color: #fff
+
+    

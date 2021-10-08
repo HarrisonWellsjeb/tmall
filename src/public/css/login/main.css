@@ -1,0 +1,36 @@
+main {
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px;
+}
+main .banner {
+  width: 100%;
+  background-color: #dd2726;
+}
+main .banner__wrap {
+  position: relative;
+  width: 1190px;
+  margin: 0 auto;
+}
+main .banner__wrap > a {
+  display: block;
+  position: absolute;
+  top: 80px;
+  left: 75px;
+  width: 630px;
+  height: 440px;
+  border: none;
+  outline: none;
+}
+main .banner__logo > img {
+  display: block;
+  margin: 0 auto;
+}
+main .login {
+  position: absolute;
+  top: 91px;
+  right: 425px;
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */
