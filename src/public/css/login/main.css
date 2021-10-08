@@ -32,5 +32,146 @@ main .login {
   right: 425px;
   background-color: #fff;
 }
+main .login__wrapper {
+  position: relative;
+  width: 300px;
+  min-height: 350px;
+  padding: 25px 25px 23px;
+  margin: 0 auto;
+  background: #fff;
+  color: #6c6c6c;
+}
+main .login__qrcode {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+main .login__qrcode > p {
+  position: absolute;
+  top: 5px;
+  right: 58px;
+  width: 84px;
+  height: 16px;
+  border: 1px solid #f3d995;
+  background: #fefcee;
+  line-height: 16px;
+  z-index: 9999;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #ff9000;
+}
+main .login__qrcode > p::before, main .login__qrcode > p::after {
+  content: "";
+  position: absolute;
+  right: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 6px 0 6px 6px;
+  z-index: 999;
+}
+main .login__qrcode > p::before {
+  right: -7px;
+  border-left-color: #ff9000;
+}
+main .login__qrcode > p::after {
+  border-left-color: #fefcee;
+}
+main .login__login__content {
+  width: 100%;
+  padding-top: 2px;
+  margin: 0 auto;
+}
+main .login__switch {
+  margin-bottom: 20px;
+  margin-top: 4px;
+  text-align: left;
+}
+main .login__switch > a {
+  height: 18px;
+  line-height: 5px;
+  font-size: 16px;
+  color: #3c3c3c;
+  margin: 9px 10px 0 0;
+  font-weight: 700;
+}
+main .login__switch > a:focus {
+  border-bottom: 2px solid #000;
+}
+main .login__form {
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+main .login__item {
+  position: relative;
+  margin-bottom: 20px;
+}
+main .login__item .item__icon {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  left: 1px;
+  bottom: 1px;
+  background-color: #ccc;
+}
+main .login__item .item__input > input {
+  box-sizing: border-box;
+  border-color: #f1eeee;
+  width: 100%;
+  border: 1px solid #ccc;
+  height: 42px;
+  outline: none;
+  font-size: 14px;
+  padding-left: 50px;
+}
+main .login__item .item__input > input:focus {
+  border-color: #ff0036;
+}
+main .login__submit > button {
+  box-sizing: border-box;
+  height: 42px;
+  line-height: 42px;
+  border-color: #ff0036;
+  outline: none;
+  color: #fff;
+  width: 100%;
+  cursor: pointer;
+  background-color: #ff0036;
+  font-size: 16px;
+  border: 1px solid #ff9000;
+  border-radius: 3px;
+  text-align: center;
+}
+main .login__help {
+  margin-top: 16px;
+  margin-bottom: 0;
+  padding: 0;
+  text-align: right;
+}
+main .login__help > a {
+  display: inline-block;
+  margin-left: 10px;
+  color: #6c6c6c;
+  font-size: 12px;
+  box-sizing: border-box;
+  padding: 0;
+  cursor: pointer;
+  text-align: right;
+}
+main .login__form--mobile {
+  display: none;
+}
 
 /*# sourceMappingURL=main.css.map */

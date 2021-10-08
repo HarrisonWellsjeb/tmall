@@ -1,6 +1,9 @@
 footer {
   border-top: 1px solid #D1D7DC;
 }
+footer.clear-bordertop {
+  border: none;
+}
 
 .server {
   background-color: #fff;

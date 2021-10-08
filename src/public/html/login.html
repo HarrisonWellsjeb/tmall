@@ -49,26 +49,67 @@
 					</div>
 					<div class="login__content">
 						<div class="login__switch">
-							<p class="login__title">
-								<a href="javascript:;">密码登录</a>
-								<a href="javascript:;">短信登陆</a>
-							</p>
+							<a href="javascript:;">密码登录</a>
+							<a href="javascript:;">短信登陆</a>
 						</div>
 					</div>
 					<form id="login__form" class="login__form" action="#">
-						<div class="login__username">
-							<div class="username__icon">
+						<div class="login__item">
+							<div class="item__icon">
 								<i class="icon"></i>
 							</div>
-							<div class="username__input">
+							<div class="item__input">
 								<input type="text" placeholder="会员名/邮箱/手机号" />
 							</div>
 						</div>
-						<div class="login__password">
-							<div class="password__icon">
+						<div class="login__item">
+							<div class="item__icon">
 								<i class="icon"></i>
 							</div>
-							<div class="password__icon">
+							<div class="item__input">
+								<input type="text" placeholder="请输入登录密码" />
+							</div>
+						</div>
+						<div class="login__submit">
+							<button type="submit">登录</button>
+						</div>
+						<div class="login__help">
+							<a
+								class="help__password"
+								href="https://passport.taobao.com/ac/password_find.htm?from_site=0&lang=zh_CN&app_name=tmall&tracelog=signin_main_pass"
+								target="_blank"
+								>忘记密码</a
+							><a
+								class="help__username"
+								href="https://passport.taobao.com/ac/nick_find.htm?from_site=0&lang=zh_CN&app_name=tmall"
+								target="_blank"
+								>忘记用户名</a
+							><a
+								class="help__register"
+								href="https://register.tmall.com/?f=login"
+								target="_blank"
+								>免费注册</a
+							>
+						</div>
+					</form>
+					<form
+						id="login__form--mobile"
+						class="login__form login__form--mobile"
+						action="#"
+					>
+						<div class="login__item">
+							<div class="item__icon">
+								<i class="icon"></i>
+							</div>
+							<div class="item__input">
+								<input type="text" placeholder="会员名/邮箱/手机号" />
+							</div>
+						</div>
+						<div class="login__item">
+							<div class="item__icon">
+								<i class="icon"></i>
+							</div>
+							<div class="item__input">
 								<input type="text" placeholder="请输入登录密码" />
 							</div>
 						</div>
@@ -99,7 +140,7 @@
 		</main>
 
 		<!-- footer -->
-		<footer>
+		<footer class="clear-bordertop">
 			<section class="copyright copyright--reverse">
 				<p class="tm__info tm__info--reverse">
 					<a href="javascript:;">关于天猫</a>
