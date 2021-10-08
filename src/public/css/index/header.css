@@ -1,3 +1,10 @@
+#iphone {
+  line-height: 26px;
+}
+#iphone a {
+  line-height: 26px;
+}
+
 .site-nav {
   background-color: #f2f2f2;
   font: normal 12px/32px "Microsoft YaHei";
@@ -9,6 +16,21 @@
   height: 32px;
   margin: 0 auto;
   justify-content: space-between;
+}
+.site-nav .wrapper--iphone {
+  width: 990px;
+  height: 26px;
+}
+.site-nav .wrapper .home {
+  height: 26px;
+  line-height: 26px;
+  margin-right: 20px;
+  color: #999;
+}
+.site-nav .wrapper .home > a {
+  color: #999;
+  line-height: 26px;
+  outline: 0;
 }
 .site-nav .wrapper .login {
   display: flex;

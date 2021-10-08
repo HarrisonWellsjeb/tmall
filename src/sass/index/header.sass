@@ -1,9 +1,15 @@
-@import "../var.sass"
+@import "../_var.sass"
 @import "../_mixin.sass"
 
 @mixin site-nav-font 
     font: normal 12px/32px "Microsoft YaHei"
     color: rgb(153, 153, 153)
+
+#iphone 
+    line-height: 26px
+    a 
+        line-height: 26px
+
 
 .site-nav
     background-color: rgb(242, 242, 242)
@@ -14,6 +20,18 @@
         height: 32px
         margin: 0 auto 
         justify-content: space-between
+        &--iphone
+            width: 990px
+            height: 26px
+        .home
+            height: 26px
+            line-height: 26px
+            margin-right: 20px
+            color: #999
+            >a
+                color: #999
+                line-height: 26px
+                outline: 0
         .login
             display: flex
             justify-content: space-between
