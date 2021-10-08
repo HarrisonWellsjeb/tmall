@@ -1,0 +1,245 @@
+.product
+    width: 990px
+    margin: 20px auto
+    z-index: 100
+    min-height: 600px
+    .wrapper
+        display: flex
+        justify-content: space-between
+    &__show
+        width: 440px
+        .showbig
+            position: relative
+            display: table
+            z-index: 1
+            width: 420px
+            height: 420px
+            margin: 20px auto 0
+            box-sizing: border-box
+            border: 1px solid rgba(0,0,0,.05)
+            border: 1px solid silver\9
+            display: table-cell
+            vertical-align: middle
+            text-align: center
+            >img
+                max-width: 100%
+                max-height: 100%
+        .showbanner
+            margin-left: -68px
+            &__view
+                position: relative
+                .view__btn
+                    position: absolute
+                    width: 32px
+                    padding-top: 22px
+                    line-height: 60px
+                    font-size: 32px
+                    user-select: none
+                    color: #ddd
+                    cursor: pointer
+                    top: 0
+                    &--prev
+                        left: 0
+                    &--next
+                        right: 0
+                .list
+                    position: relative
+                    display: flex
+                    justify-content: space-between
+                    width: 364px
+                    margin: 0 auto
+                    overflow: hidden
+                    text-align: center
+                    white-space: nowrap
+                    transition: left .2s cubic-bezier(0,0,.25,1)
+                    font-size: 0
+                    >li
+                        position: relative
+                        margin: 0 0 0 16px
+                        padding-top: 22px
+                        &::after
+                            content: ""
+                            position: absolute
+                            left: 0
+                            top: 22px
+                            width: 56px
+                            height: 56px
+                            font-size: 0
+                            line-height: 0
+                            border: 2px solid #000
+                            display: none
+                        &:hover::after
+                            display: block
+    &__custion
+        flex: 1 0 auto
+        padding: 0 0 10px
+        color: #666
+        .custion__title
+            margin: 0
+            padding: 20px 10px 12px
+            color: #000
+            >a
+                vertical-align: middle
+                color: #000
+                line-height: 1
+                font-size: 16px
+                font-weight: 700
+        .custion__price
+            position: relative
+            display: flex
+            justify-content: flex-start
+            left: 0
+            padding-top: 5px
+            z-index: 10
+            margin-right: 20px
+            padding-bottom: 5px
+            background-image: url("..\\..\\..\\public\\images\\iphone\\pro-price-bcimg.png")
+            backgroung-position: left 0
+            background-color: #e9e9e9
+            background-repeat: no-repeat
+            font: 12px/1.5 "Microsoft Yahei"
+            color: #333
+            >span
+                width: 69px
+                height: 30px
+                margin: 0 0 0 8px
+                color: #999
+                font-size: 12px
+                text-align: left
+                line-height: 30px
+            >p
+                color: #333
+                color: #FF0036
+                >em
+                    font-size: 18px
+                    vertical-align: middle
+                    text-decoration: none
+                .price
+                    font-size: 24px
+                    text-decoration: none
+                    vertical-align: middle
+                    font-weight: bolder
+        .custion__freight
+            margin: 5px 20px 5px 0
+            line-height: 24px
+        .tm-integral
+            position: relative
+            display: flex
+            padding: 10px 0
+            margin: -1px 20px 0 0
+            border: 1px dotted #c9c9c9
+            border-width: 1px 0
+            overflow: hidden
+            >a
+                float: left
+                width: 33%
+                text-align: center
+                position: relative
+                left: -1px
+                border-left: 1px solid #e5dfda
+                flex: 1
+                line-height: 16px
+                cursor: pointer
+                font-size: 12px
+                >span
+                    display: inline-block
+                    line-height: 16px
+                    height: 16px
+                    color: #999
+                .tm__value
+                    display: inline-block
+                    line-height: 16px
+                    height: 16px
+                    font-weight: 700
+                    margin-left: 3px
+                    &--red
+                        color: #FF0036
+                    &--green
+                        color: #280
+        .custion__custing
+            margin: 0 20px 24px 10px
+            padding: 15px 0 22px 0
+            .custing__field
+                display: flex
+                justify-content: flex-start
+                padding-bottom: 6px
+                font-size: 12px
+                >dt
+                    width: 66px
+                    text-align: left
+                    color: #838383
+                    margin-top: 6px
+                >dd
+                    width: 420px
+                    >ul
+                        display: flex
+                        >li
+                            line-height: 28px
+                            margin: 0 4px 4px 0
+                            vertical-align: middle
+                            padding: 1px
+                            background-color: #fff
+                            white-space: nowrap
+                            min-width: 10px
+                            padding: 0 9px
+                            text-align: center
+                            border: 1px solid #b8b7bd
+                            color: #000
+                            text-decoration: none
+            .custing__field--pro
+                >dt
+                    padding-top: 4px
+                >dd
+                    >ul
+                        >li
+                            line-height: 38px
+            .custing__amount
+                padding: 0
+                .field__value
+                    li
+                        border: none
+                    input
+                        width: 36px
+                        height: 26px
+                        padding: 3px 2px 0 3px
+                        border: 1px solid #a7a6ac
+                        margin: 0
+                        font-size: 12px
+                        line-height: 26px
+                        background-position: -406px -41px
+                        color: #666
+                        vertical-align: middle
+                    .btn
+                        display: inline-block
+                        vertical-align: middle
+                        line-height: 31px
+                        color: #878787
+                        &--add
+                            width: 16px
+                            height: 12px
+                            overflow: hidden
+                            border: 1px solid #a7a6ab
+                            display: block
+                            line-height: 12px
+                            font-size: 16px
+                            cursor: pointer
+                        &--disadd
+                            width: 16px
+                            height: 12px
+                            overflow: hidden
+                            border: 1px solid #a7a6ab
+                            display: block
+                            font-family: tm-detail-font!important
+                            line-height: 12px
+                            font-size: 16px
+                            cursor: pointer
+            .custing__btn
+                padding: 10px 0 0 66px
+                margin: 10px 0 0       
+
+
+
+
+
+
+

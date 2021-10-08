@@ -9,6 +9,14 @@
     line-height: 26px
     a 
         line-height: 26px
+    
+    .login
+        margin-left: -290px
+    .site-nav__menu
+        width: 400px
+    .menu__sliderdown
+        &:after
+            top: 12px
 
 
 .site-nav
@@ -220,3 +228,27 @@
             line-height: 36px
             color: #fff
 
+
+// iphone nav
+.iphone-nav
+    padding-bottom: 0
+    margin: 0
+    max-height: 150px
+    background-color: #333
+    .wrapper
+        width: 990px
+        margin: 0 auto
+        .nav
+            display: flex
+            justify-content: flex-start
+            align-items: center
+            height: 45px
+            &__item
+                height: 21px
+                &:not(:first-of-type)
+                    margin-left: 48px
+                >a
+                    color: #fff
+                    font-size: 14px
+                    font-weight: 400
+                    line-height: 21px
