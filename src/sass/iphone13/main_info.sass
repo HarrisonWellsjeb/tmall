@@ -1,0 +1,297 @@
+.info 
+    display: flex 
+    justify-content: space-between
+    align-items: flex-start
+    width: 990px
+    margin: 0 auto
+
+.acces
+    box-sizing: border-box
+    width: 189px
+    margin-top: -1px
+    padding-bottom: 20px
+    border-width: 1px
+    border-color: #e5e5e5
+    border-style: solid
+    background-color: #fff
+    background-image: none
+    background-position: 0 0
+    background-repeat: no-repeat
+    color: #333
+    font-size: 14px
+    line-height: 1.5em
+    
+    &__title 
+        width: 100%
+        height: 26px
+        padding: 0
+        margin: 0
+        background: #F2F2F2
+        line-height: 26px
+        text-indent: 10px
+        color: #333
+        font-size: 14px
+        font-weight: 400
+    &__ls 
+        box-sizing: border-box
+        width: 180px
+        margin-top: 20px
+        padding-left: 8px
+        line-height: 20px
+        font-size: 14px
+        >dt 
+            box-sizing: border-box
+            padding-left: 3px
+            width: 170px
+            line-height: 28px
+            border-bottom: 1px solid #999
+            font-size: 14px
+            color: #333
+            >a 
+                color: #000
+        >dd
+            box-sizing: border-box
+            padding-left: 3px
+            margin-top: 5px
+            >a 
+                color: #000   
+    a:hover 
+        color: #0070C9    
+
+.interac
+    width: 790px
+    &__title
+        display: flex
+        justify-content: space-left
+        width: 100%
+        height: 48px
+        padding: 0
+        margin: 0
+        border: 1px solid #dfdfdf
+        background-color: #fff
+        >p 
+            position: relative
+            box-sizing: border-box
+            padding: 0 20px
+            height: 47px
+            margin: -1px 0 0 -1px
+            border-top: 2px solid transparent
+            border-left: 1px solid #cfbfb1
+            border-right: 1px solid #cfbfb1
+            font-size: 12px
+            line-height: 48px
+            font-weight: 400
+            color: #333
+            cursor: pointer
+        >p:after 
+            content: ""
+            position: absolute
+            left: 50%
+            top: -1px
+            width: 0
+            height: 0
+            transform: translateX(-50%)
+            border-width: 5px
+            border-style: solid
+            border-color: #FF0036 transparent transparent
+            display: none
+        >p:hover 
+            border-top-color: #FF0036
+            color: #FF0036
+            &:after
+                display: block
+    .content
+        .title__desc
+            margin-bottom: 10px
+            border-top: none
+            border: 1px solid #e6e6e6
+            font-size: 12px
+            .name 
+                height: 40px
+                padding: 8px 20px 10px
+                margin-right: 15px
+                border-top: 1px solid #e6e6e6
+                line-height: 40px
+                color: #666
+                span:last-of-type
+                    color: #333
+                    font-weight: 400
+        .product__about
+            .item
+                width: 100%
+                margin-top: 6px
+                overflow: hidden
+            .item:first-of-type
+                margin-top: 10px
+    .other
+        .price
+            padding-top: 10px
+        .evaluate
+            &__title
+                height: 30px
+                padding: 0
+                margin: 0
+                line-height: 30px
+                padding-left: 16px
+                background-color: #FF0036
+                color: #fff
+                font-size: 12px
+                font-weight: 700
+            &__body
+                display: flex 
+                justify-content: space-between
+                padding: 10px 0
+                border: 1px solid #c8c8c8
+                .body__summer
+                    width: 75px
+                    padding: 0 20px
+                    border-right: 1px dotted #ddd
+                    text-align: center
+                    vertical-align: top
+                    h4  
+                        padding: 0
+                        margin: 0
+                        color: #404040
+                        font-size: 12px
+                        font-weight: 100
+                    em
+                        margin: 0 2px
+                        line-height: 32px
+                        font-family: arial
+                        color: #f60
+                        font-size: 32px
+                    p 
+                        padding-top: 1px
+                        padding-left: 7px
+                        text-align: left
+                        span
+                            display: block
+                            width: 60px
+                            height: 12px
+                            overflow: hidden
+                            em
+                                display: block
+                                width: 60px
+                                height: 12px
+                                overflow: hidden
+                                background: url("..\\..\\..\\public\\images\\iphone\\jingling1.png") 0 -16px no-repeat
+                .body__main
+                    flex: 1 0 auto
+                    width: 450px                                   
+                    padding-left: 90px
+                    padding-top: 22px
+                    vertical-align: top
+                    .extent
+                        position: relative
+                        width: 400px
+                        height: 16px
+                        text-align: left
+                        background: url("..\\..\\..\\public\\images\\iphone\\jingling2.png") no-repeat
+                        &:after
+                            position: absolute
+                            content: "4.9"
+                            top: -24px
+                            right: 0
+                            width: 30px
+                            height: 23px
+                            line-height: 19px
+                            text-align: center
+                            color: #fff
+                            font-size: 12px
+                            background: url("..\\..\\..\\public\\images\\iphone\\jingling2.png") -418px no-repeat
+                    .extent-pointer
+                        display: flex
+                        justify-content: space-between
+                        width: 395px
+                        padding-left: 40px
+                        font-size: 12px
+                        >li 
+                            width: 80px
+                            text-align: center
+                            color: grey
+            &__toolbar
+                display: flex 
+                justify-content: space-between
+                height: 24px
+                padding: 5px 10px
+                border: 1px solid #c8c8c8
+                line-height: 24px
+                text-align: right       
+                background: #EFEFEF
+                .left,
+                .right
+                    padding-left: 2px
+                    line-height: 24px
+                    text-align: right
+                    font-size: 12px
+                    font-weight: 400
+                .right 
+                    display: flex
+                    justify-content: space-between
+                    .select
+                        position: relative
+                        text-align: center
+                        padding-right: 5px
+                        padding-left: 5px
+                        margin: 0 5px
+                        text-indent: -1em
+                        background: url("..\\..\\..\\public\\images\\iphone\\xiala.png") 64px 8px no-repeat
+                        display: block
+                        cursor: default
+                        height: 20px
+                        line-height: 20px
+                        width: 81px
+                        border: 1px solid #c8c8c8
+                        .select__ls
+                            position: absolute
+                            left: -1px
+                            top: 21px
+                            background: #fff
+                            width: 100%
+                            padding: 0
+                            border-width: 0 1px 1px
+                            border-style: solid
+                            border-color: #DDD
+                            overflow: hidden
+                            z-index: 1
+                            display: none
+                            >li 
+                                line-height: 24px
+                                text-align: center
+                                cursor: pointer
+        .remenber
+            padding: 10px
+            margin-top: 80px
+            border: 1px solid #ffcc7f
+            background-color: #ffffe5
+            dl 
+                display: flex 
+                justify-content: space-between
+                line-height: 2
+                font-size: 12px
+                >dt 
+                    flex: 1 0 auto
+                    width: 68px
+                    font-weight: 700
+                >dd 
+                    font-weight: 400
+            dl:first-of-type 
+                margin-bottom: 10px
+                padding-bottom: 10px
+                border-bottom: 1px solid #ffe8ca
+                p:first-of-type a
+                    color: #35a
+                p:last-of-type 
+                    >a span 
+                        margin: 4px 10px 0 0
+                        color: #999
+                        padding-left: 18px
+                        height: 16px
+                        line-height: 16px
+                        background: url("..\\..\\..\\public\\images\\iphone\\uc.png") no-repeat
+                
+            
+
+
+
+    

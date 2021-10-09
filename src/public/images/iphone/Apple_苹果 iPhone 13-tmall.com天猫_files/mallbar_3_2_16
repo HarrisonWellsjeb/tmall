@@ -1,0 +1,52 @@
+                                                                                                  
+window.__mallbarGetConf && __mallbarGetConf({
+
+
+
+
+
+
+"v":"2.3.16",
+"t":1633739512141,
+"notWideTab":true,
+"liveBubMax": 10,
+"liveBubDur": 10,
+
+
+"downloadWords": '领取新用户福利礼包',
+
+"qrcodeDescNew":"https://img.alicdn.com/tfs/TB1riEYeYY1gK0jSZTEXXXDQVXa-135-45.png",
+"qrcodeDescSpecial":"https://gtms04.alicdn.com/tps/i4/TB126HxKXXXXXXMXFXXwu0bFXXX.png",
+"qrcodeBg":"https://img.alicdn.com/tfs/TB1uwIcRXXXXXXsaXXXXXXXXXXX-154-207.png",
+"qrcodeArr":"#FF0036",
+
+"primeStartTime": 1420905600000,
+"mobilecrossVersion": "3.0.0",
+"notCartDefaultBubble":0,
+"notFavorDefaultBubble":0,
+"notCartBubbleNum":0,
+"firstBubbleWaitTime":1,
+"topAddHeight":1, 
+
+navNarrow: '',
+navWideBig: '',
+navWideLittle: '',
+navHeight:{"n":0,"wl":50,"wb":150},
+
+assetActBannerList: [
+
+{
+    pic: 'http://img.alicdn.com/tps/i1/TB1CUSYLFXXXXXAapXXlcivTXXX-200-75.jpeg',
+    url: 'https://pages.tmall.com/wow/jifen/act/tmallgwq?spm=a312d.7832034.0.0.eT30g6'
+}
+
+],
+cashCardBanner: '',
+worthMore:'',
+tag201511Time:{s:1449417600000,e:1449935999000}, 
+handleDownShelfTime: {s:1446307200000,e:1447257600000},
+channelTime:{s:1446307200000,e:1447257600000},
+"bubbleBlacklist":['107922698','109681130'],
+
+"l": []
+})
