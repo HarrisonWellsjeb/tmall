@@ -1,0 +1,41 @@
+.func   
+    width: 1190px
+    margin: 0 auto
+
+    &__title
+        display: flex
+        justify-content: flex-start
+        height: 25px
+        margin-bottom: 20px
+        li 
+            font-weight: 700
+            font-size: 14px
+            height: 14px
+            line-height: 1.1
+            text-align: center
+            padding: 0 13px 10px 0
+            cursor: pointer
+            margin-left: -1px
+            outline: 0
+            border-bottom: 2px solid transparent
+            color: #3c3c3c
+            &:hover 
+                border-color: #f40
+                color: #f40
+        li+li
+            span 
+                border-left: 1px solid #e8e8e8
+                padding-left: 13px
+                text-decoration: none
+    &__content 
+        height: 381px
+        padding-bottom: 20px
+    &__item 
+        width: 100%
+        height: 330px
+        &--active 
+            display: block
+        &--none 
+            display: none
+
+

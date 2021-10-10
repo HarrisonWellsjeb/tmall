@@ -1074,6 +1074,9 @@ footer.clear-bordertop {
 .copyright .tm__info--reverse > a {
   color: #000;
 }
+.copyright .tm__info--bortop {
+  border-top: 1px solid #ddd;
+}
 .copyright .tm__friendlink {
   color: #fff;
   line-height: 25px;
