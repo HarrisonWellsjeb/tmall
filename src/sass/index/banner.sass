@@ -2,9 +2,9 @@
 @import "../_var.sass"
 
 .banner
-    @include wrapper
 
 .banner__nav
+    @include wrapper
     .nav
         display: flex
         align-items: center
@@ -58,6 +58,9 @@
             .subnav__title
                 >span>a
                     color: #fff
+                &:hover,
+                &:hover a
+                    color: $cmain
             .subnav__container 
                 display: flex
                 box-sizing: border-box
@@ -107,11 +110,15 @@
                                 padding-right: 12px
                             a
                                 color: #666
+                                &:hover 
+                                    color: $cmain
 
 .banner
     &__bar
+        position: relative
         width: 100%
     &__view
+        position: relative
         width: 100%
         height: 500px
     &__imgs
@@ -121,23 +128,48 @@
         width: 10000px
         height: 500px
     &__img
-        width: 1230px
+        position: absolute
+        left: 0
+        top: 0
+        width: 100%
         height: 500px
+        opacity: 0
+        transition: all 1s
+        &--active
+            opacity: 1
     &__img:nth-of-type(1)
         background: rgb(247,118,25) url("..\\..\\..\\public\\images\\index\\banner\\1.webp") center center no-repeat
-        backgorund-size: 1130px 500px
+        background-size: 1130px 500px
     &__img:nth-of-type(2)
         background: rgb(232,232,232) url("..\\..\\..\\public\\images\\index\\banner\\2.jpg") center center no-repeat
-        backgorund-size: 1130px 500px
+        background-size: 1130px 500px
     &__img:nth-of-type(3)
         background: rgb(55,137,242) url("..\\..\\..\\public\\images\\index\\banner\\3.jpg") center center no-repeat
-        backgorund-size: 1130px 500px
+        background-size: 1130px 500px
     &__img:nth-of-type(4)
         background: rgb(232,232,232) url("..\\..\\..\\public\\images\\index\\banner\\4.jpg") center center no-repeat
-        backgorund-size: 1130px 500px
+        background-size: 1130px 500px
     &__img:nth-of-type(5)
         background: rgb(113,140,245) url("..\\..\\..\\public\\images\\index\\banner\\5.webp") center center no-repeat
-        backgorund-size: 1130px 500px
+        background-size: 1130px 500px
     &__img:nth-of-type(6)
         background: rgb(246,113,44) url("..\\..\\..\\public\\images\\index\\banner\\6.webp") center center no-repeat
-        backgorund-size: 1130px 500px
+        background-size: 1130px 500px
+    &__btn 
+        display: flex 
+        justify-content: space-between
+        position: absolute
+        bottom: 20px 
+        left: 50%
+        transform: translateX(-50%)
+        &--dotted 
+            width: 40px
+            height: 10px 
+            border-radius: 5px
+            background-color: lightgray
+            margin: 0 10px
+            cursor: pointer
+.btn__dotted--active
+    background-color: red!important
+
+

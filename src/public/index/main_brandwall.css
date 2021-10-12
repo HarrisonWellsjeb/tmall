@@ -1,0 +1,66 @@
+.main__brandwall {
+  width: 1230px;
+  padding-right: 30px;
+  margin: 0 auto;
+}
+
+.brandwall {
+  background-color: #fff;
+}
+.brandwall__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.brandwall__item {
+  position: relative;
+  width: 122px;
+  height: 108px;
+}
+.brandwall__img {
+  text-align: center;
+  width: 122px;
+  height: 108px;
+  line-height: 108px;
+}
+.brandwall__img > img {
+  width: 82%;
+  height: 50px;
+}
+.brandwall__mask {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  width: 122px;
+  height: 108px;
+  display: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 18px;
+}
+.brandwall__item:hover .brandwall__mask {
+  display: block;
+}
+.brandwall__desc {
+  box-sizing: border-box;
+  height: 60px;
+  padding: 32px 5px 0 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.brandwall__enter {
+  height: 32px;
+  width: 63px;
+  height: 18px;
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 15px;
+  background-color: #FF0036;
+  border-radius: 9px;
+}
+
+/*# sourceMappingURL=main_brandwall.css.map */

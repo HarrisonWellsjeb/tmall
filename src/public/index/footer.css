@@ -1,0 +1,170 @@
+footer {
+  border-top: 1px solid #D1D7DC;
+}
+footer.clear-bordertop {
+  border: none;
+}
+
+.server {
+  background-color: #fff;
+}
+.server .power {
+  display: flex;
+  justify-content: space-between;
+  width: 1190px;
+  height: 100px;
+  margin: 25px auto;
+}
+.server .power__item {
+  width: 297px;
+  height: 100px;
+}
+.server .power__item > a {
+  display: block;
+}
+.server .power__item > a > img {
+  width: 297px;
+  height: 100px;
+}
+.server .link {
+  display: flex;
+  justify-content: space-between;
+  width: 1190px;
+  height: 190px;
+  padding-top: 22px;
+  margin: 0 auto;
+  border-top: 1px solid #ededed;
+  background-image: url("..\\..\\..\\public\\images\\index\\footer__log.png");
+  background-repeat: no-repeat;
+  background-size: 68px 25px;
+  background-position: 0 bottom;
+}
+.server .link__list {
+  width: 186px;
+  padding-right: 52px;
+}
+.server .link__title {
+  height: 30px;
+  text-align: left;
+  color: #646464;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.server .link__data a {
+  display: block;
+  width: 100px;
+  overflow: hidden;
+  text-align: left;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #8b8b8b;
+}
+.server .link__qdcode > a {
+  display: block;
+  position: relative;
+  width: 105px;
+  height: 105px;
+  line-height: 105px;
+  text-align: center;
+}
+.server .link__qdcode > a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0;
+}
+.server .link__qdcode > a:hover::before {
+  border-top: 1px dotted #ff0036;
+  z-index: 999;
+}
+.server .link__qdcode > a > img {
+  width: 105px;
+  height: 105px;
+  vertical-align: middle;
+}
+
+.copyright {
+  padding-bottom: 18px;
+  background-color: #000;
+  text-align: left;
+}
+.copyright .tm__info, .copyright .tm__friendlink {
+  width: 1190px;
+  height: 25px;
+  padding: 5px 0;
+  margin: 0 auto;
+  line-height: 25px;
+}
+.copyright .tm__info > a, .copyright .tm__friendlink > a {
+  margin-right: 3px;
+  font-size: 12px;
+  color: #fff;
+}
+.copyright .tm__info--reverse {
+  color: #000;
+}
+.copyright .tm__info--reverse > a {
+  color: #000;
+}
+.copyright .tm__info--bortop {
+  border-top: 1px solid #ddd;
+}
+.copyright .tm__friendlink {
+  color: #fff;
+  line-height: 25px;
+  font-size: 12px;
+}
+.copyright .tm__friendlink--reverse {
+  color: #000;
+}
+.copyright .tm__friendlink--reverse > a {
+  color: #000;
+}
+.copyright .footer__copyright {
+  width: 1190px;
+  margin: 0 auto;
+  line-height: 20px;
+  font-size: 12px;
+}
+.copyright .footer__copyright > a {
+  padding-right: 65px;
+  color: #a4a4a4;
+}
+.copyright .footer__copyright > a > img {
+  position: relative;
+  top: 5px;
+  vertical-align: baseline;
+}
+.copyright .footer__copyright .copyright__cpr {
+  display: block;
+  color: #686868;
+  font-weight: 400;
+}
+.copyright .footer__copyright--reverse > a {
+  color: #666666;
+}
+.copyright .footer__bottom {
+  width: 1190px;
+  padding: 10px 0 5px 0;
+  margin: 0 auto;
+}
+.copyright .footer__bottom > a {
+  margin-right: 10px;
+}
+.copyright .footer__bottom > a > img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+.copyright .footer__bottom > a:last-of-type > img {
+  width: 80px;
+}
+.copyright--reverse {
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=footer.css.map */

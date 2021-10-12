@@ -1,0 +1,42 @@
+.car {
+  width: 1190px;
+  min-height: 400px;
+  margin: 0 auto;
+}
+.car__title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 20px 0 10px 0;
+}
+.car__title .cood {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  color: #000;
+}
+.car__title .cood > span {
+  color: #000;
+  font-weight: 400;
+}
+.car__title .cood ul {
+  display: flex;
+  justify-content: space-between;
+}
+.car__title .cood ul li {
+  padding-left: 5px;
+}
+.car__title .cood ul li > a {
+  background: url("..\\..\\..\\public\\images\\shopcar\\gt.gif") no-repeat 100% 50%;
+  padding-right: 8px;
+  margin-right: 1px;
+  color: #36C;
+}
+.car__title .help > span {
+  color: gray;
+}
+.car__title .help > a {
+  color: #36C;
+}
+
+/*# sourceMappingURL=car.css.map */

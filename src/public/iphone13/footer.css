@@ -1,0 +1,33 @@
+.ifooter {
+  background: #f1f1f1;
+  margin-bottom: 10px;
+}
+.ifooter .wrapper {
+  width: 990px;
+  height: 70px;
+  margin: 0 auto;
+}
+.ifooter .wrapper ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 990px;
+  line-height: 28px;
+  color: #999;
+  font-size: 12px;
+  padding-top: 2px;
+}
+.ifooter .wrapper ul li {
+  margin-right: 20px;
+}
+.ifooter .wrapper ul li span {
+  vertical-align: middle;
+}
+.ifooter .wrapper ul li > a {
+  color: #0070c9;
+}
+.ifooter .wrapper ul li > a > img {
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=footer.css.map */

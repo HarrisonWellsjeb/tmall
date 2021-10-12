@@ -14,6 +14,7 @@
 		<link rel="stylesheet" href="../css/index/header.css" />
 		<link rel="stylesheet" href="../css/index/footer.css" />
 		<link rel="stylesheet" href="../css/iphone13/iphone13.css" />
+		<script src="../js/product/pro.js" type="module"></script>
 	</head>
 	<body>
 		<!-- header -->
@@ -154,12 +155,14 @@
 					<!-- 展示部分 -->
 					<div class="product__show">
 						<div class="showbig">
+							<div class="showbig__mask"></div>
 							<img
 								src="../images/iphone/pro__ban__1L.jpg"
 								width="430"
 								height="430"
 								alt="!"
 							/>
+							<div class="showbig__xl"></div>
 						</div>
 						<div class="showbanner">
 							<div class="showbanner__view">
@@ -167,9 +170,10 @@
 									<i class="icon"></i>
 								</p>
 								<ul class="list">
-									<li class="item">
+									<li class="item active">
 										<a href="javascript:;">
 											<img
+												data-i="1"
 												src="../images/iphone/pro__ban__1.jpg"
 												width="60"
 												height="60"
@@ -180,6 +184,7 @@
 									<li class="item">
 										<a href="javascript:;">
 											<img
+												data-i="2"
 												src="../images/iphone/pro__ban__2.jpg"
 												width="60"
 												height="60"
@@ -190,6 +195,7 @@
 									<li class="item">
 										<a href="javascript:;">
 											<img
+												data-i="3"
 												src="../images/iphone/pro__ban__3.jpg"
 												width="60"
 												height="60"
@@ -200,6 +206,7 @@
 									<li class="item">
 										<a href="javascript:;">
 											<img
+												data-i="4"
 												src="../images/iphone/pro__ban__4.jpg"
 												width="60"
 												height="60"
@@ -210,6 +217,7 @@
 									<li class="item">
 										<a href="javascript:;">
 											<img
+												data-i="5"
 												src="../images/iphone/pro__ban__5.jpg"
 												width="60"
 												height="60"
@@ -220,6 +228,7 @@
 									<li class="item">
 										<a href="javascript:;">
 											<img
+												data-i="6"
 												src="../images/iphone/pro__ban__6.jpg"
 												width="60"
 												height="60"
@@ -280,34 +289,44 @@
 							<dl class="custing__field custing__field--pro">
 								<dt>机身颜色</dt>
 								<dd>
-									<ul class="field__value">
-										<li>粉色</li>
-										<li>蓝色</li>
-										<li>午夜色</li>
-										<li>星光色</li>
-										<li>红色</li>
+									<ul id="custing-color" class="field__value">
+										<li data-i="1">粉色</li>
+										<li data-i="2">蓝色</li>
+										<li data-i="3">午夜色</li>
+										<li data-i="4">星光色</li>
+										<li data-i="5">红色</li>
 									</ul>
 								</dd>
 							</dl>
 							<dl class="custing__field">
 								<dt>存储容量</dt>
 								<dd>
-									<ul class="field__value">
-										<li>128GB</li>
-										<li>256GB</li>
-										<li>512GB</li>
+									<ul id="price" class="field__value">
+										<li data-price="599900">128GB</li>
+										<li data-price="679900">256GB</li>
+										<li data-price="839900">512GB</li>
 									</ul>
 								</dd>
 							</dl>
 							<dl class="custing__field custing__amount">
 								<dt>数量</dt>
 								<dd>
-									<ul class="field__value">
+									<ul id="not" class="field__value">
 										<li>
-											<input type="text" />
-											<span class="btn">
-												<span class="btn--add"></span>
-												<span class="btn--disadd"></span>
+											<input
+												id="number-value"
+												type="text"
+												value="1"
+											/>
+											<span id="change-number" class="btn">
+												<span
+													data-symbol="1"
+													class="btn--add"
+												></span>
+												<span
+													data-symbol="-1"
+													class="btn--disadd"
+												></span>
 											</span>
 										</li>
 									</ul>

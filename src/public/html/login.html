@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="../style/base/normalize.css" />
 		<link rel="stylesheet" href="../css/login/login.css" />
 		<link rel="stylesheet" href="../css/index/footer.css" />
+		<script src="../js/iphone13/iphone13.js" type="module"></script>
 	</head>
 	<body>
 		<!-- header -->
@@ -53,7 +54,11 @@
 							<a href="javascript:;">短信登陆</a>
 						</div>
 					</div>
-					<form id="login__form" class="login__form" action="#">
+					<form
+						id="login__form"
+						class="login__form login__form--active"
+						action="#"
+					>
 						<div class="login__item">
 							<div class="item__icon">
 								<i class="icon"></i>
@@ -102,7 +107,7 @@
 								<i class="icon"></i>
 							</div>
 							<div class="item__input">
-								<input type="text" placeholder="会员名/邮箱/手机号" />
+								<input type="text" placeholder="请输入手机号" />
 							</div>
 						</div>
 						<div class="login__item">
@@ -110,7 +115,7 @@
 								<i class="icon"></i>
 							</div>
 							<div class="item__input">
-								<input type="text" placeholder="请输入登录密码" />
+								<input type="text" placeholder="请输入验证码" />
 							</div>
 						</div>
 						<div class="login__submit">

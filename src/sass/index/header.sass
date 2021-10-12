@@ -21,6 +21,7 @@
 
 .site-nav
     background-color: rgb(242, 242, 242)
+    border-bottom: 1px solid #eee
     @include site-nav-font
     .wrapper
         display: flex
@@ -76,7 +77,7 @@
                     @include  site-nav-font           
             .menu__sub
                 position: absolute
-                left: 0
+                left: -1px
                 top: -100px
                 width: 74px
                 padding: 8px 10px
@@ -97,7 +98,7 @@
                     width: 64px
             .seller-list
                 left: auto
-                right: 0
+                right: -1px
                 width: 122px
                 overflow: hidden
                 .seller__item
@@ -172,9 +173,10 @@
                 border: solid #eee
                 border-width: 1px 1px 0
             >li:hover .menu__sub
-                top: 33px
+                top: 31px
                 max-height: 500px
                 opacity: 1
+                z-index: 9999999
 
 // search
 .searchbar
@@ -193,6 +195,9 @@
             margin-left: -20px
     
     .search
+        flex: 1 0 auto
+        display: flex 
+        justify-content: flex-end
         width: 625px
         heigth: 40px
         margin-left: 75px
