@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="../css/index/header.css" />
 		<link rel="stylesheet" href="../css/index/footer.css" />
 		<link rel="stylesheet" href="../css/shopcar/shopcar.css" />
+		<script src="../js/shop/shop.js" type="module"></script>
 	</head>
 	<body>
 		<!-- header -->
@@ -281,7 +282,127 @@
 						<a href="javascript:;"> 如何使用购物车 </a>
 					</div>
 				</div>
-				<div class="car__content"></div>
+			</section>
+			<!-- cart -->
+			<section class="cart">
+				<div class="cart__title">
+					<ul class="title__ls">
+						<li class="title__item">
+							<a href="javascript:;">
+								<span>全新商品</span>
+								<em class="title__count">0</em>
+							</a>
+						</li>
+						<li class="title__item">
+							<a href="javascript:;">
+								<span>降价商品</span>
+								<em class="title__count">0</em>
+							</a>
+						</li>
+						<li class="title__item">
+							<a href="javascript:;">
+								<span>库存紧张</span>
+								<em class="title__count">0</em>
+							</a>
+						</li>
+					</ul>
+					<div class="function">
+						<span class="product__selected">已选商品（不含运费）</span>
+						<em class="selected__value">0.00</em>
+						<a id="product__clearing" class="product__clearing">结&nbsp;算</a>
+					</div>
+				</div>
+				<div class="cart__content">
+					<div class="cart__tabel">
+						<div class="cart__all">
+							<input
+								class="all"
+								id="all"
+								type="checkbox"
+								name="all"
+								value="true"
+							/>
+							<label for="all">全选</label>
+						</div>
+						<p class="cart__info">商品信息</p>
+						<ul class="function">
+							<li>单价</li>
+							<li>数量</li>
+							<li>金额</li>
+							<li>操作</li>
+						</ul>
+					</div>
+					<ul class="cart__products">
+						<li class="cart__product">
+							<div class="pro__select">
+								<input type="checkbox" />
+							</div>
+							<div class="pro__info">
+								<a href="javascript:;">
+									<img
+										src="https://img.alicdn.com/bao/uploaded/i3/1917047079/O1CN01iPmESv22AEO1IPvA1_!!2-item_pic.png_80x80.jpg"
+										alt="!"
+									/>
+									<p class="info__name">
+										Apple/苹果 13 英寸 MacBook Pro Apple M1 芯片，配备
+										8 核中央处理器和 8 核图形处理器 512GB 存储容量
+									</p>
+								</a>
+							</div>
+							<div class="pro__desc">
+								<p class="desc__color">颜色分类：深空灰</p>
+								<p class="desc__storage">储存容量：256GB</p>
+							</div>
+							<div class="pro__price">
+								<p class="price__value">
+									￥
+									<em>11758.00</em>
+								</p>
+							</div>
+							<div class="pro__amount">
+								<p class="amount__input">
+									<span class="disadd">-</span>
+									<input
+										type="text"
+										name="amount-input"
+										class="pro__input"
+									/>
+									<span class="add">+</span>
+								</p>
+							</div>
+							<div class="pro__allprice">
+								<p>￥<em>99999.00</em></p>
+							</div>
+							<div class="pro__del">
+								<p>删除</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="cart__function">
+					<div class="func__left">
+						<div class="left__all">
+							<input
+								type="checkbox"
+								name="left-all"
+								id="left-all"
+								class="left-all"
+							/>
+							<label for="left-all">全选</label>
+						</div>
+						<p class="fun__dele">删除</p>
+					</div>
+					<div class="func__right">
+						<div class="right__selected">
+							已选商品 <em class="sel-value">0</em> 件
+						</div>
+						<p class="right-txt">
+							合计（不含运费）：
+							<em class="right-heji">0.00</em>
+						</p>
+						<p class="right__clearing">结算</p>
+					</div>
+				</div>
 			</section>
 
 			<!-- function -->

@@ -5,6 +5,7 @@ import Swap from "./swap.js";
 import Select from "./select.js";
 import Price from "./price.js";
 import Number from "./number.js";
+import "./getItem.js";
 
 const banner = new Banner($(".showbanner"));
 const bigglass = new BigGlass($(".showbig"));

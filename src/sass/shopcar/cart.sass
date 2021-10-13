@@ -1,0 +1,233 @@
+.cart
+    width: 1190px
+    margin: 18px auto 0
+    &__title 
+        display: flex
+        justify-content: space-between
+        height: 33px
+        .title__ls
+            display: flex 
+            justify-content: space-between
+            .title__item
+                font-weight: 700
+                font-size: 16px
+                height: 16px
+                line-height: 1.1
+                text-align: center
+                padding: 0 28px 0 16px
+                margin-bottom: 15px
+                cursor: pointer
+                margin-left: -1px
+                border-right: 1px solid rgb(232, 232, 232)
+                >a
+                    color: #3c3c3c
+            .title__item--active
+                >a
+                    color: #f40
+        .function
+            font-size: 12px
+            display: flex 
+            justify-content: space-between
+            height: 25px
+            line-height: 25px
+            .selected__value 
+                font-weight: 700
+                margin-right: 5px
+                color: #f40
+            .product__clearing 
+                display: inline-block
+                background: #aaa
+                color: #fff
+                text-align: center 
+                width: 40px
+            .no
+                cursor: not-allowed
+    &__content
+    &__tabel    
+        display: flex 
+        justify-content: space-between
+        height: 50px
+        line-height: 50px
+        color: #3c3c3c
+        font-size: 12px
+        .cart__all 
+            width: 50px
+            height: 50px
+        .cart__info
+            width: 324px
+            height: 50px
+            margin-left: -100px
+        .function 
+            display: flex 
+            justify-content: space-between  
+            li
+                flex: 1 0 auto 
+            li:nth-of-type(1)
+                width: 120px
+                height: 50px
+                padding-left: 10px
+            li:nth-of-type(2)
+                width: 120px
+                height: 50px      
+                padding-left: 10px
+            li:nth-of-type(3)
+                width: 140px
+                height: 50px      
+            li:nth-of-type(4)
+                width: 120px
+                height: 50px  
+                padding-left: 20px   
+    &__products
+    &__product 
+        display: flex
+        justify-content: space-between 
+        border: 1px solid #ccc
+        mix-height: 119px
+        padding-top: 20px
+        .pro__select
+            box-sizing: border-box
+            width: 50px
+            padding-left: 20px
+        .pro__info
+            box-sizing: border-box
+            width: 342px
+            height: 109px
+            // padding-right: 20px
+            >a
+                display: flex 
+                justify-content: space-between
+                align-items: flex-start
+                >img
+                    widht: 80px
+                    height: 80px
+                    border: 1px solid #eee
+                p 
+                    margin-left: 4px
+                    font-size: 12px
+                    line-height: 16px
+                    max-height: 32px
+                    overflow: hidden
+                    text-overflow: ellipsis
+                    color: #3c3c3c
+        .pro__desc
+            box-sizing: border-box
+            width: 210px
+            // padding-right: 40px
+            p   
+                font-size: 12px
+                margin: 0 5px 0 15px
+                color: #9c9c9c
+                overflow: hidden
+                text-overflow: ellipsis
+        .pro__price
+            box-sizing: border-box
+            width: 130px
+            font-size: 12px
+            color: #3c3c3c
+            font-weight: 700
+            p 
+                margin-left: 32px
+        .pro__amount
+            box-sizing: border-box
+            width: 120px
+            p 
+                position: relative
+                margin-left: 20px
+                span 
+                    position: absolute
+                    height: 23px
+                    width: 17px
+                    border: 1px solid #e5e5e5
+                    background: #f0f0f0
+                    text-align: center
+                    line-height: 23px
+                    color: #444
+                    cursor: pointer
+                span:last-of-type 
+                    left: 59px
+                span:hover 
+                    color: #f50
+                    z-index: 3
+                    border-color: #f60
+                input 
+                    width: 39px
+                    height: 15px
+                    line-height: 15px
+                    border: 1px solid #aaa
+                    color: #343434
+                    text-align: center
+                    padding: 4px 0
+                    background-color: #fff
+                    background-position: -75px -375px
+                    position: absolute
+                    z-index: 2
+                    left: 18px
+                    top: 0
+        .pro__allprice 
+            box-sizing: border-box
+            width: 140px
+            color: #f40
+            font-weight: 700
+            font-size: 12px
+            p 
+                margin-left: 15px
+        .pro__del  
+            box-sizing: border-box
+            width: 149px
+            color: #3c3c3c
+            font-size: 12px
+            p   
+                margin-left: 30px
+    &__function 
+        display: flex 
+        justify-content: space-between
+        height: 50px
+        background-color: rgb(229,229,229)
+        margin-top: 24px
+        margn-bottom: 50px
+        font-size: 12px
+        .func__left 
+            display: flex 
+            justify-content: space-between
+            align-items: center
+            .left__all
+                width: 50px
+                height: 50px
+                line-height: 50px
+                padding-left: 5px
+            .fun__dele
+                margin-left: 25px
+        .func__right 
+            display: flex 
+            justify-content: space-between
+            align-items: center
+            width: 412px
+            .right__selected
+                color: #3c3c3c
+                .sel-value
+                    color: #f40
+                    font-weight: 700
+                    font-size: 18px
+            .right-txt
+                color: #3c3c3c
+                .right-heji
+                    color: #f40
+                    font-weight: 700
+                    font-size: 18px
+                    line-height: 48px
+            .right__clearing 
+                align-self: stretch
+                background: #B0B0B0
+                color: #fff
+                border-left: 1px solid #e7e7e7
+                width: 119px
+                cursor: not-allowed
+                text-decoration: none
+                font-size: 20px
+                line-height: 50px
+                text-align: center
+                
+
+
+
+

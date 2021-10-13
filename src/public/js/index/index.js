@@ -1,6 +1,7 @@
 import Banner from "./banner.js";
 import TopNav from "./top-nav.js";
 import "https://cdn.bootcdn.net/ajax/libs/jquery/1.12.0/jquery.min.js";
+import "./getProducts.js";
 
 $(function () {
 	const banner = new Banner({

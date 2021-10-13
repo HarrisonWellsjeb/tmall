@@ -1,6 +1,6 @@
 .func {
   width: 1190px;
-  margin: 0 auto;
+  margin: 50px auto 0;
 }
 .func__title {
   display: flex;
