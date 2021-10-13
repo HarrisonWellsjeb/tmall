@@ -1,0 +1,44 @@
+[
+	{
+		"color": "粉色",
+		"price": "8399.00",
+		"picture": "src\\public\\images\\iphone\\pro__ban__s1L.jpg",
+		"displayBig": "src\\public\\images\\iphone\\pro__ban__s1xL.png"
+	},
+	{
+		"color": "蓝色",
+		"price": "8399.00",
+		"picture": "src\\public\\images\\iphone\\pro__ban__s2L.jpg",
+		"displayBig": "src\\public\\images\\iphone\\pro__ban__s2xL.png"
+	},
+	{
+		"color": "午夜色",
+		"price": "8399.00",
+		"picture": "src\\public\\images\\iphone\\pro__ban__s3L.jpg",
+		"displayBig": "src\\public\\images\\iphone\\pro__ban__s3xL.png"
+	},
+	{
+		"color": "星光色",
+		"price": "8399.00",
+		"picture": "src\\public\\images\\iphone\\pro__ban__s4L.jpg",
+		"displayBig": "src\\public\\images\\iphone\\pro__ban__s4xL.png"
+	},
+	{
+		"color": "红色",
+		"price": "8399.00",
+		"picture": "src\\public\\images\\iphone\\pro__ban__s5L.jpg",
+		"displayBig": "src\\public\\images\\iphone\\pro__ban__s5xL.png"
+	},
+	{
+		"storage": "128GB",
+		"price": "5999.00"
+	},
+	{
+		"storage": "256GB",
+		"price": "6799.00"
+	},
+	{
+		"storage": "512GB",
+		"price": "8399.00"
+	}
+]

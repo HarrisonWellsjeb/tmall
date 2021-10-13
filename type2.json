@@ -1,0 +1,32 @@
+[
+	{
+		"color": "陶瓷黑",
+		"price": "6499.00",
+		"picture": "https://img.alicdn.com/imgextra/i4/1714128138/O1CN01xATWkX29zFtOS5u7A_!!0-item_pic.jpg_430x430q90.jpg",
+		"displayBig": "https://img.alicdn.com/imgextra/O1CN01VbFulj1i0LYXaYTZW_!!6000000004350-2-remus.png"
+	},
+	{
+		"color": "陶瓷白",
+		"price": "6499.00",
+		"picture": "//img.alicdn.com/imgextra/O1CN019cOu5L1HDB1SxcDlQ_!!6000000000723-2-remus.png_430x430q90.jpg",
+		"displayBig": "https://img.alicdn.com/imgextra/O1CN019cOu5L1HDB1SxcDlQ_!!6000000000723-2-remus.png"
+	},
+	{
+		"color": "红色",
+		"price": "8399.00",
+		"picture": "src\\public\\images\\iphone\\pro__ban__s5L.jpg",
+		"displayBig": "src\\public\\images\\iphone\\pro__ban__s5xL.png"
+	},
+	{
+		"storage": "8+256GB",
+		"price": "5499.00"
+	},
+	{
+		"storage": "12+256GB",
+		"price": "5999.00"
+	},
+	{
+		"storage": "12+512GB",
+		"price": "6499.00"
+	}
+]

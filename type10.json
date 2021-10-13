@@ -1,0 +1,24 @@
+[
+	{
+		"color": "陶瓷黑",
+		"picture": "//img.alicdn.com/imgextra/O1CN01VbFulj1i0LYXaYTZW_!!6000000004350-2-remus.png_430x430q90.jpg",
+		"displayBig": "https://img.alicdn.com/imgextra/O1CN01VbFulj1i0LYXaYTZW_!!6000000004350-2-remus.png"
+	},
+	{
+		"color": "陶瓷白",
+		"picture": "//img.alicdn.com/imgextra/O1CN019cOu5L1HDB1SxcDlQ_!!6000000000723-2-remus.png_430x430q90.jpg",
+		"displayBig": "https://img.alicdn.com/imgextra/O1CN019cOu5L1HDB1SxcDlQ_!!6000000000723-2-remus.png"
+	},
+	{
+		"storage": "8G+256GB",
+		"price": "5499.00"
+	},
+	{
+		"storage": "12G+256GB",
+		"price": "5999.00"
+	},
+	{
+		"storage": "12G+512GB",
+		"price": "6499.00"
+	}
+]

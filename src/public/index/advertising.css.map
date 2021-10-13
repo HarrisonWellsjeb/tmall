@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,YAAY;EACR,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,OAAc;;AAChC,gBAAE;EACE,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,MAAM;;AAClB,iBAAM;EACF,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI",
-"sources": ["../../sass/index/advertising.sass"],
-"names": [],
-"file": "advertising.css"
-}

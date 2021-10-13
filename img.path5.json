@@ -1,0 +1,32 @@
+[
+	{
+		"content": "banner",
+		"images": [
+			"//img.alicdn.com/imgextra/https://img.alicdn.com/imgextra/i1/2615238525/O1CN01f29iWw2CqVAdILJ1O_!!2615238525.jpg_60x60q90.jpg",
+			"//img.alicdn.com/imgextra/https://img.alicdn.com/imgextra/i2/2615238525/O1CN01e0vXCT2CqVAX3bXB8_!!2615238525.jpg_60x60q90.jpg",
+			"//img.alicdn.com/imgextra/https://img.alicdn.com/imgextra/i4/2615238525/O1CN015uoVn72CqVAfPXRqK_!!2615238525.jpg_60x60q90.jpg",
+			"//img.alicdn.com/imgextra/https://img.alicdn.com/imgextra/i4/2615238525/O1CN015uoVn72CqVAfPXRqK_!!2615238525.jpg_60x60q90.jpg",
+			"//img.alicdn.com/imgextra/https://img.alicdn.com/imgextra/i4/2615238525/O1CN01yadrLS2CqVA6Z5NMu_!!2615238525.jpg_60x60q90.jpg"
+		]
+	},
+	{
+		"content": "display",
+		"images": [
+			"https://img.alicdn.com/imgextra/https://img.alicdn.com/imgextra/i1/2615238525/O1CN01f29iWw2CqVAdILJ1O_!!2615238525.jpg_430x430q90.jpg",
+			"https://img.alicdn.com/imgextra/https://img.alicdn.com/imgextra/i2/2615238525/O1CN01e0vXCT2CqVAX3bXB8_!!2615238525.jpg_430x430q90.jpg",
+			"https://img.alicdn.com/imgextra/https://img.alicdn.com/imgextra/i4/2615238525/O1CN015uoVn72CqVAfPXRqK_!!2615238525.jpg_430x430q90.jpg",
+			"https://img.alicdn.com/imgextra/https://img.alicdn.com/imgextra/i2/2615238525/O1CN01vSvkrt2CqVAapcEOa_!!2615238525.jpg_430x430q90.jpg",
+			"https://img.alicdn.com/imgextra/https://img.alicdn.com/imgextra/i4/2615238525/O1CN01yadrLS2CqVA6Z5NMu_!!2615238525.jpg_430x430q90.jpg"
+		]
+	},
+	{
+		"content": "displaybig",
+		"images": [
+			"https://img.alicdn.com/imgextra/https://img.alicdn.com/imgextra/i1/2615238525/O1CN01f29iWw2CqVAdILJ1O_!!2615238525.jpg",
+			"https://img.alicdn.com/imgextra/https://img.alicdn.com/imgextra/i2/2615238525/O1CN01e0vXCT2CqVAX3bXB8_!!2615238525.jpg",
+			"https://img.alicdn.com/imgextra/https://img.alicdn.com/imgextra/i4/2615238525/O1CN015uoVn72CqVAfPXRqK_!!2615238525.jpg",
+			"https://img.alicdn.com/imgextra/https://img.alicdn.com/imgextra/i2/2615238525/O1CN01vSvkrt2CqVAapcEOa_!!2615238525.jpg",
+			"https://img.alicdn.com/imgextra/https://img.alicdn.com/imgextra/i4/2615238525/O1CN01yadrLS2CqVA6Z5NMu_!!2615238525.jpg"
+		]
+	}
+]

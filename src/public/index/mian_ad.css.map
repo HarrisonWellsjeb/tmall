@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAEA,IAAI;EACA,gBAAgB,EAAE,OAAO;;;AAC7B,SAAS;EACL,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;;AACpB,mBAAS;ECLT,KAAK,ECDI,MAAM;EDEf,aAAa,ECDA,IAAI;EDEjB,MAAM,EAAE,MAAM;EDKV,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;;AAC9B,uBAAE;EACE,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;;AACb,6BAAI;EACA,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,SAAS,EAAE,CAAC;EACZ,cAAc,EAAE,MAAM",
-"sources": ["../../sass/index/mian_ad.sass","../../sass/_mixin.sass","../../sass/_var.sass"],
-"names": [],
-"file": "mian_ad.css"
-}

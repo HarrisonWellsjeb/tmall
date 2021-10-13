@@ -57,22 +57,30 @@
 					<form
 						id="login__form"
 						class="login__form login__form--active"
-						action="#"
+						action="http://127.0.0.1/tmall/interface/login.php"
 					>
 						<div class="login__item">
 							<div class="item__icon">
 								<i class="icon"></i>
 							</div>
-							<div class="item__input">
-								<input type="text" placeholder="会员名/邮箱/手机号" />
+							<div id="username" class="item__input">
+								<input
+									name="username"
+									type="text"
+									placeholder="会员名/邮箱/手机号"
+								/>
 							</div>
 						</div>
-						<div class="login__item">
+						<div id="psw" class="login__item">
 							<div class="item__icon">
 								<i class="icon"></i>
 							</div>
 							<div class="item__input">
-								<input type="text" placeholder="请输入登录密码" />
+								<input
+									name="password"
+									type="text"
+									placeholder="请输入登录密码"
+								/>
 							</div>
 						</div>
 						<div class="login__submit">

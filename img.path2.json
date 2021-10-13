@@ -1,0 +1,31 @@
+[
+	{
+		"content": "banner",
+		"images": [
+			"//img.alicdn.com/imgextra/i4/1714128138/O1CN01xATWkX29zFtOS5u7A_!!0-item_pic.jpg_60x60q90.jpg",
+			"//img.alicdn.com/imgextra/i4/1714128138/O1CN012GHAJP29zFtWm4x0w_!!1714128138.jpg_60x60q90.jpg",
+			"//img.alicdn.com/imgextra/i4/1714128138/O1CN01Zpsw4v29zFst3mxCb_!!1714128138.jpg_60x60q90.jpg",
+			"//img.alicdn.com/imgextra/i1/1714128138/O1CN016gRjtk29zFqz1skVP_!!1714128138.png_60x60q90.jpg",
+			"//img.alicdn.com/imgextra/i3/1714128138/O1CN01jq4IdO29zFr9JpSoF_!!1714128138.jpg_60x60q90.jpg"
+		]
+	},
+	{
+		"content": "display",
+		"images": [
+			"https://img.alicdn.com/imgextra/i4/1714128138/O1CN01xATWkX29zFtOS5u7A_!!0-item_pic.jpg_430x430q90.jpg",
+			"https://img.alicdn.com/imgextra/i4/1714128138/O1CN012GHAJP29zFtWm4x0w_!!1714128138.jpg_430x430q90.jpg",
+			"https://img.alicdn.com/imgextra/i4/1714128138/O1CN01Zpsw4v29zFst3mxCb_!!1714128138.jpg_430x430q90.jpg",
+			"https://img.alicdn.com/imgextra/i3/1714128138/O1CN01jq4IdO29zFr9JpSoF_!!1714128138.jpg_430x430q90.jpg"
+		]
+	},
+	{
+		"content": "displaybig",
+		"images": [
+			"https://img.alicdn.com/imgextra/i4/1714128138/O1CN01xATWkX29zFtOS5u7A_!!0-item_pic.jpg",
+			"https://img.alicdn.com/imgextra/i4/1714128138/O1CN012GHAJP29zFtWm4x0w_!!1714128138.jpg",
+			"https://img.alicdn.com/imgextra/i4/1714128138/O1CN01Zpsw4v29zFst3mxCb_!!1714128138.jpg",
+			"https://img.alicdn.com/imgextra/i1/1714128138/O1CN016gRjtk29zFqz1skVP_!!1714128138.png",
+			"https://img.alicdn.com/imgextra/i3/1714128138/O1CN01jq4IdO29zFr9JpSoF_!!1714128138.jpg"
+		]
+	}
+]
