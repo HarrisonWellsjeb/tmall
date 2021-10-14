@@ -339,6 +339,7 @@
   line-height: 38px;
   text-align: center;
   font-size: 16px;
+  cursor: pointer;
 }
 .product__custion .custion__custing .custing__btn > a:last-of-type {
   background-color: #ff0036;

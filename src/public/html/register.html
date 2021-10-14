@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="../style/base/normalize.css" />
 		<link rel="stylesheet" href="../css/login/login.css" />
 		<link rel="stylesheet" href="../css/index/footer.css" />
-		<script src="../js/iphone13/iphone13.js" type="module"></script>
+		<script src="../js/register/register.js" type="module"></script>
 	</head>
 	<body>
 		<!-- header -->
@@ -50,11 +50,16 @@
 					</div>
 					<div class="login__content">
 						<div class="login__switch">
-							<a href="javascript:;">密码登录</a>
-							<a href="javascript:;">短信登陆</a>
+							<a href="javascript:;">账号注册</a>
+							<a href="javascript:;">短信注册</a>
 						</div>
 					</div>
-					<div id="login__form" class="login__form login__form--active">
+					<form
+						id="login__form"
+						class="login__form login__form--active"
+						method="post"
+						action="http://localhost/tmall/src/interface/registry.php"
+					>
 						<div class="login__item">
 							<div class="item__icon">
 								<i class="icon"></i>
@@ -78,13 +83,18 @@
 									id="pass"
 									name="password"
 									type="text"
-									placeholder="请输入登录密码"
+									placeholder="请设置密码"
 								/>
 								<span class="checkbox"></span>
 							</div>
 						</div>
 						<div class="login__submit">
-							<button id="login-submit" type="submit">登录</button>
+							<input
+								id="login-submit"
+								type="submit"
+								value="注册"
+								name="submit"
+							/>
 						</div>
 						<div class="login__help">
 							<a
@@ -104,7 +114,7 @@
 								>免费注册</a
 							>
 						</div>
-					</div>
+					</form>
 					<!-- <form
 						id="login__form--mobile"
 						class="login__form login__form--mobile"

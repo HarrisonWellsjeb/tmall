@@ -1,30 +1,60 @@
-import "https://cdn.bootcdn.net/ajax/libs/jquery/1.12.0/jquery.min.js";
-export default class Login {
-	constructor(node) {
-		this.node = node;
-		this.username = $("#username");
-		this.psw = $("#psw");
-		this.submit = this.node.find(".login__submit>button")[0];
-		this.login();
-	}
-	login() {
-		const that = this;
-		$(this.submit).on("click", function submit(evt) {
-			$.ajax({
-				type: "get",
-				url: "http://127.0.0.1/tmall/interface/login.php",
-				data: {
-					username: that.username.val(),
-					password: that.psw.val()
-				},
-				dataType: "json"
+import $ from "../library/jquery.js";
+import cookie from "../library/cookie.js";
+const username = $("#user");
+const password = $("#pass");
+const userCheck = $(".input-user .checkbox");
+const passCheck = $(".input-psw .checkbox");
+const submit = $("#login-submit");
+
+username.on("blur", function (evt) {
+	if ($(this).val() !== "") {
+		$.ajax({
+			type: "post",
+			url: "../../interface/login.php",
+			data: {
+				user: username.val()
+			}
+		})
+			.then((res) => {
+				if (res === "userfalse") {
+					userCheck.css("color", "red").html("用户名不存在，请重新输入");
+				} else {
+					userCheck.html("");
+				}
 			})
-				.then(function (data) {
-					console.log(data);
-				})
-				.catch(function (xhr) {
-					console.log(xhr);
-				});
-		});
+			.catch((xhr) => console.log(xhr.status));
+	} else {
+		userCheck.css("color", "red").html("用户名不能为空！！！");
 	}
-}
+});
+
+submit.on("click", function (evt) {
+	console.log({
+		username: username.val(),
+		password: password.val()
+	});
+	evt.preventDefault();
+	if (password.val() !== "") {
+		passCheck.html("");
+		$.ajax({
+			type: "post",
+			url: "../../interface/login.php",
+			data: {
+				user: username.val(),
+				pass: password.val()
+			}
+		})
+			.then((res) => {
+				if (res === "loginsuccess") {
+					cookie.set("username", username.val(), 1);
+					location.href = "./index.html";
+				} else if (res === "loginfail") {
+					alert("密码错误");
+					password.val("");
+				}
+			})
+			.catch((xhr) => console.log(xhr.status));
+	} else {
+		passCheck.css("color", "red").html("密码不能为空");
+	}
+});

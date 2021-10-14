@@ -208,9 +208,11 @@
   width: 149px;
   color: #3c3c3c;
   font-size: 12px;
+  cursor: pointer;
 }
 .cart__product .pro__del p {
   margin-left: 30px;
+  cursor: pointer;
 }
 .cart__function {
   display: flex;

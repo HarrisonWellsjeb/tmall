@@ -14,16 +14,18 @@ $.ajax({
 		let templateColor = ``;
 		let templateStorage = ``;
 		let templateIcon = ``;
+		let templateDisplay = ``;
 
 		let pictures = JSON.parse(res.picture);
 		let iconImage = pictures[0].images;
 		let displayImage = pictures[1].images;
 		let bigImage = pictures[2].images;
+		let descImage = JSON.parse(res.details);
 
 		// iconImage
 		iconImage.forEach((item) => {
 			templateIcon += `
-                    <li class="item active">
+                    <li class="item">
                         <a href="javascript:;">
                             <img
                                 src="${item}"
@@ -36,6 +38,26 @@ $.ajax({
             `;
 		});
 		$(".showbanner__view .list").html(templateIcon);
+
+		// display image
+		// displayImage.forEach((item, i) => {
+		// 	templateDisplay += `
+		// 	<div class="showbig__mask"></div>
+		// 	<img
+		// 		src="${item}"
+		// 		width="430"
+		// 		height="430"
+		// 		alt="!"
+		// 	/>
+		// 	<img class="showbig__xl" src="${bigImage[i]}" />
+		// 	`;
+		// });
+		// $(".showbig")
+		// 	.html(templateDisplay)
+		// 	.children(".showbig__mask")
+		// 	.on("click", function (evt) {
+		// 		console.log(evt.targete);
+		// 	});
 
 		templateTitle += `
                 <a target="_blank" href="javascript:;">
@@ -76,7 +98,7 @@ $.ajax({
 		});
 		storage.forEach((item) => {
 			templateStorage += `
-                <li>${item.price}</li>
+                <li>${item.storage}</li>
             `;
 		});
 		$(".price-storage").html(templateStorage);
@@ -84,6 +106,74 @@ $.ajax({
 		$(".btn__add").on("click", function () {
 			addItem(res.id, $("#number-value").val());
 		});
+
+		// <!-- 温馨提示 -->
+		let templateWX = `
+				<div class="item">
+					<div class="item__img">
+						<img
+							src="${descImage[0]}"
+							alt="温馨提示"
+						/>
+					</div>
+				</div>
+			`;
+		$(".product__about .wx").html(templateWX);
+
+		// <!-- 注意事项 -->
+		let templateZY = `
+				<div class="item__img">
+					<img
+						src="${descImage[1]}"
+						alt="温馨提示"
+					/>
+				</div>
+		`;
+		$(".product__about .zhuyi").html(templateZY);
+
+		// <!-- 了解一下iphone13 -->
+		let templateLJ = `
+			<div class='item__img'>
+				<img
+					src='${descImage[2]}'
+					alt='温馨提示'
+				/>
+			</div>
+			`;
+		$(".product__about .lj").html(templateLJ);
+
+		// <!-- 包装内容 -->
+		let templateBZ = `
+			<div class="item__img">
+				<img
+					src="${descImage[3]}"
+					alt="温馨提示"
+				/>
+			</div>
+		`;
+		$(".product__about .baozhuang").html(templateBZ);
+
+		// <!-- 比较 -->
+		let templateBiJiao = `
+		<div class="item__img">
+			<img
+				src="${descImage[4]}"
+				alt="温馨提示"
+			/>
+		</div>
+	`;
+		$(".product__about .bijiao").html(templateBiJiao);
+
+		// <!-- 哪款机型适合你 -->
+		let templateShiHe = `
+		<div class="item__img">
+			<img
+				src="${descImage[5]}"
+				alt="温馨提示"
+			/>
+		</div>
+	`;
+		$(".product__about .shihe").html(templateShiHe);
 	})
 	.catch((xhr) => {
 		console.log(xhr.status);

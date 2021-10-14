@@ -32,6 +32,7 @@
   padding: 0;
   background-color: #ff0036;
   color: #fff;
+  text-align: left;
 }
 .banner__nav .nav__title {
   height: 36px;
@@ -43,12 +44,14 @@
 }
 .banner__nav .nav__subnav {
   position: absolute;
+  box-sizing: border-box;
   top: 35px;
   left: 0;
   width: 200px;
   height: 500px;
   background-color: rgba(0, 0, 0, 0.55);
   z-index: 999;
+  padding-left: 20px;
 }
 .banner__nav .nav__subnav .subnav__item {
   height: 31.2px;

@@ -2,47 +2,37 @@
 	{
 		"content": "banner",
 		"images": [
-			"src\\public\\images\\iphone\\pro__ban__1.jpg",
-			"src\\public\\images\\iphone\\pro__ban__2.jpg",
-			"src\\public\\images\\iphone\\pro__ban__3.jpg",
-			"src\\public\\images\\iphone\\pro__ban__4.jpg",
-			"src\\public\\images\\iphone\\pro__ban__5.jpg",
-			"src\\public\\images\\iphone\\pro__ban__6.jpg",
-			"src\\public\\images\\iphone\\pro__ban__7.jpg"
+			"//img.alicdn.com/imgextra/i2/1917047079/O1CN01EB7BnQ22AESKgN64I_!!2-item_pic.png_60x60q90.jpg",
+			"//img.alicdn.com/imgextra/i1/1917047079/O1CN01PCwNAj22AESNS7xtU_!!2-item_pic.png_60x60q90.jpg",
+			"//img.alicdn.com/imgextra/i2/1917047079/O1CN01pOKEBt22AESKgLDea_!!2-item_pic.png_60x60q90.jpg",
+			"//img.alicdn.com/imgextra/i2/1917047079/O1CN01qryyu122AESGHf4ew_!!2-item_pic.png_60x60q90.jpg",
+			"//img.alicdn.com/imgextra/i2/1917047079/O1CN01X2ESE222AES7Lg6fp_!!2-item_pic.png_60x60q90.jpg",
+			"//img.alicdn.com/imgextra/i2/1917047079/O1CN01GIY6DX22AESKCR1w5_!!2-item_pic.png_60x60q90.jpg",
+			"//img.alicdn.com/imgextra/i2/1917047079/O1CN01HGJsfj22AESI2pmYh_!!2-item_pic.png_60x60q90.jpg"
 		]
 	},
 	{
 		"content": "display",
 		"images": [
-			"src\\public\\images\\iphone\\pro__ban__1L.jpg",
-			"src\\public\\images\\iphone\\pro__ban__2L.jpg",
-			"src\\public\\images\\iphone\\pro__ban__3L.jpg",
-			"src\\public\\images\\iphone\\pro__ban__4L.jpg",
-			"src\\public\\images\\iphone\\pro__ban__5L.jpg",
-			"src\\public\\images\\iphone\\pro__ban__6L.jpg",
-			"src\\public\\images\\iphone\\pro__ban__7L.jpg",
-			"src\\public\\images\\iphone\\pro__ban__s1L.jpg",
-			"src\\public\\images\\iphone\\pro__ban__s2L.jpg",
-			"src\\public\\images\\iphone\\pro__ban__s3L.jpg",
-			"src\\public\\images\\iphone\\pro__ban__s4L.jpg",
-			"src\\public\\images\\iphone\\pro__ban__s5L.jpg"
+			"https://img.alicdn.com/imgextra/i2/1917047079/O1CN01pOKEBt22AESKgLDea_!!2-item_pic.png_430x430q90.jpg",
+			"https://img.alicdn.com/imgextra/i2/1917047079/O1CN01qryyu122AESGHf4ew_!!2-item_pic.png_430x430q90.jpg",
+			"https://img.alicdn.com/imgextra/i2/1917047079/O1CN01X2ESE222AES7Lg6fp_!!2-item_pic.png_430x430q90.jpg",
+			"https://img.alicdn.com/imgextra/i2/1917047079/O1CN01GIY6DX22AESKCR1w5_!!2-item_pic.png_430x430q90.jpg",
+			"https://img.alicdn.com/imgextra/i2/1917047079/O1CN01HGJsfj22AESI2pmYh_!!2-item_pic.png_430x430q90.jpg",
+			"https://img.alicdn.com/imgextra/i2/1917047079/O1CN01EB7BnQ22AESKgN64I_!!2-item_pic.png_430x430q90.jpg",
+			"https://img.alicdn.com/imgextra/i1/1917047079/O1CN01PCwNAj22AESNS7xtU_!!2-item_pic.png_430x430q90.jpg"
 		]
 	},
 	{
 		"content": "displaybig",
 		"images": [
-			"src\\public\\images\\iphone\\pro__ban__1xL.png",
-			"src\\public\\images\\iphone\\pro__ban__2xL.png",
-			"src\\public\\images\\iphone\\pro__ban__3xL.png",
-			"src\\public\\images\\iphone\\pro__ban__4xL.png",
-			"src\\public\\images\\iphone\\pro__ban__5xL.png",
-			"src\\public\\images\\iphone\\pro__ban__6xL.png",
-			"src\\public\\images\\iphone\\pro__ban__7xL.png",
-			"src\\public\\images\\iphone\\pro__ban__s1xL.png",
-			"src\\public\\images\\iphone\\pro__ban__s2xL.png",
-			"src\\public\\images\\iphone\\pro__ban__s3xL.png",
-			"src\\public\\images\\iphone\\pro__ban__s4xL.png",
-			"src\\public\\images\\iphone\\pro__ban__s5xL.png"
+			"https://img.alicdn.com/imgextra/i2/1917047079/O1CN01pOKEBt22AESKgLDea_!!2-item_pic.png",
+			"https://img.alicdn.com/imgextra/i2/1917047079/O1CN01qryyu122AESGHf4ew_!!2-item_pic.png",
+			"https://img.alicdn.com/imgextra/i2/1917047079/O1CN01X2ESE222AES7Lg6fp_!!2-item_pic.png",
+			"https://img.alicdn.com/imgextra/i2/1917047079/O1CN01GIY6DX22AESKCR1w5_!!2-item_pic.png",
+			"https://img.alicdn.com/imgextra/i2/1917047079/O1CN01HGJsfj22AESI2pmYh_!!2-item_pic.png",
+			"https://img.alicdn.com/imgextra/i2/1917047079/O1CN01EB7BnQ22AESKgN64I_!!2-item_pic.png",
+			"https://img.alicdn.com/imgextra/i1/1917047079/O1CN01PCwNAj22AESNS7xtU_!!2-item_pic.png"
 		]
 	}
 ]
