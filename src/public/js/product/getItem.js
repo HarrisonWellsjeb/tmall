@@ -1,5 +1,6 @@
 import $ from "../library/jquery.js";
 import cookie from "../library/cookie.js";
+import BigGlass from "./bigglass.js";
 let id = location.search.split("=")[1];
 
 $.ajax({
@@ -23,7 +24,7 @@ $.ajax({
 		let descImage = JSON.parse(res.details);
 
 		// iconImage
-		iconImage.forEach((item) => {
+		iconImage.forEach((item, index) => {
 			templateIcon += `
                     <li class="item">
                         <a href="javascript:;">
@@ -32,12 +33,32 @@ $.ajax({
                                 width="60"
                                 height="60"
                                 alt="!"
+								data-index="${index}"
                             />
                         </a>
                     </li>
             `;
 		});
-		$(".showbanner__view .list").html(templateIcon);
+
+		$(".showbig").find("img").attr("src", displayImage[0]);
+
+		$(".showbanner__view .list")
+			.html(templateIcon)
+			.on("mouseover", function (evt) {
+				let target = evt.target;
+				if (target.nodeName.toUpperCase() === "IMG") {
+					let index = $(target).attr("data-index");
+					$(target).parent().parent().parent().children().removeClass("active");
+					$(target).parent().parent("li.item").addClass("active");
+					$(".showbig>img").attr("src", displayImage[index]);
+					$(".showbig").on("mouseenter", function (evt) {
+						console.log("1");
+						$(this).find(".showbig__xl").css({
+							"background-image": bigImage[index]
+						});
+					});
+				}
+			});
 
 		// display image
 		// displayImage.forEach((item, i) => {
