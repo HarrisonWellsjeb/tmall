@@ -51,12 +51,12 @@
   height: 500px;
   background-color: rgba(0, 0, 0, 0.55);
   z-index: 999;
-  padding-left: 20px;
 }
 .banner__nav .nav__subnav .subnav__item {
   height: 31.2px;
   font-size: 14px;
   line-height: 31.2px;
+  padding-left: 20px;
 }
 .banner__nav .nav__subnav .subnav__item:hover {
   background-color: #fff;

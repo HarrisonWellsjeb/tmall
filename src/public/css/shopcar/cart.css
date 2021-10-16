@@ -100,6 +100,7 @@
   border: 1px solid #ccc;
   mix-height: 119px;
   padding-top: 20px;
+  margin-bottom: 20px;
 }
 .cart__product .pro__select {
   box-sizing: border-box;

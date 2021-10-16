@@ -47,7 +47,7 @@ if (shopCookie) {
 						</div>
 						<div class="pro__amount">
 							<p class="amount__input">
-								<span class="disadd">-</span>
+								<span class="disadd" data-i="${index}">-</span>
 								<input
 									type="text"
 									name="amount-input"
@@ -55,7 +55,7 @@ if (shopCookie) {
 									value="${current[0].num}"
 									max-value="${product.num}"
 								/>
-								<span class="add">+</span>
+								<span class="add" data-i="${index}">+</span>
 							</p>
 						</div>
 						<div class="pro__allprice">
@@ -78,6 +78,23 @@ if (shopCookie) {
 						location.reload();
 					});
 			});
+			// $(".cart__products").on("click", function (evt) {
+			// 	const cartEventsMap = {
+			// 		disadd: function () {
+			// 			$(".amount__input>input").val(function () {
+			// 				let value = parseInt($(this).val());
+			// 				value--;
+			// 				console.log(value);
+			// 				$(this).val(value);
+			// 				console.log(cookie.get("shop"));
+			// 				// cookie.set();
+			// 			});
+			// 		},
+			// 		add: function () {}
+			// 	};
+			// 	let target = evt.target;
+			// 	cartEventsMap[$(target).attr("class")]();
+			// });
 		})
 		.catch((xhr) => {
 			console.log(xhr.status);

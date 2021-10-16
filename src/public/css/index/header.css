@@ -60,6 +60,10 @@
   width: 506px;
   justify-content: space-between;
 }
+.site-nav .wrapper .site-nav__menu > li:hover > a {
+  box-sizing: border-box;
+  color: #ff0036;
+}
 .site-nav .wrapper .site-nav__menu .menu__sliderdown {
   padding-right: 14px;
 }
